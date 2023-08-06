@@ -188,4 +188,14 @@ struct Post: Identifiable {
             image: Image("todd")
         ),
     ]
+
+    static let demoPost = [
+        Post(
+            id: "1",
+            title: "Мертвый анархист",
+            description: "",
+            year: "",
+            image: Image("mertviy_anarhist")
+        )
+    ]
 }

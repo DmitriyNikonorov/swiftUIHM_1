@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AE8407B2A7FB04900FB05CA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8407A2A7FB04900FB05CA /* UserData.swift */; };
+		5AE8407F2A7FC3BB00FB05CA /* ImageFielder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8407E2A7FC3BB00FB05CA /* ImageFielder.swift */; };
+		5AE840812A7FED0C00FB05CA /* AlbumImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE840802A7FED0C00FB05CA /* AlbumImage.swift */; };
 		5AF82E3B2A7E904C00050EA4 /* KCSongsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E3A2A7E904C00050EA4 /* KCSongsApp.swift */; };
 		5AF82E3D2A7E904C00050EA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E3C2A7E904C00050EA4 /* ContentView.swift */; };
 		5AF82E3F2A7E905100050EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF82E3E2A7E905100050EA4 /* Assets.xcassets */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AE8407A2A7FB04900FB05CA /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		5AE8407E2A7FC3BB00FB05CA /* ImageFielder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFielder.swift; sourceTree = "<group>"; };
+		5AE840802A7FED0C00FB05CA /* AlbumImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImage.swift; sourceTree = "<group>"; };
 		5AF82E372A7E904C00050EA4 /* KCSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF82E3A2A7E904C00050EA4 /* KCSongsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCSongsApp.swift; sourceTree = "<group>"; };
 		5AF82E3C2A7E904C00050EA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +54,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AE840782A7FB02A00FB05CA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5AE840792A7FB03800FB05CA /* UserData */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5AE840792A7FB03800FB05CA /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8407A2A7FB04900FB05CA /* UserData.swift */,
+			);
+			path = UserData;
+			sourceTree = "<group>";
+		};
+		5AE8407C2A7FC33C00FB05CA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5AE8407E2A7FC3BB00FB05CA /* ImageFielder.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5AE8407D2A7FC34500FB05CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AF82E502A7EBCE100050EA4 /* BackButtonView.swift */,
+				5AE840802A7FED0C00FB05CA /* AlbumImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5AF82E2E2A7E904C00050EA4 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				5AF82E3A2A7E904C00050EA4 /* KCSongsApp.swift */,
+				5AE840782A7FB02A00FB05CA /* Services */,
 				5AF82E562A7EC0A300050EA4 /* Flows */,
 				5AF82E3E2A7E905100050EA4 /* Assets.xcassets */,
 				5AF82E552A7EC00C00050EA4 /* UI */,
@@ -96,7 +136,8 @@
 		5AF82E552A7EC00C00050EA4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				5AF82E502A7EBCE100050EA4 /* BackButtonView.swift */,
+				5AE8407D2A7FC34500FB05CA /* Views */,
+				5AE8407C2A7FC33C00FB05CA /* Source */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -132,8 +173,8 @@
 		5AF82E5B2A7EC47A00050EA4 /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				5AF82E4C2A7E9E4B00050EA4 /* InfoRowView.swift */,
 				5AF82E4A2A7E9C7200050EA4 /* InfoView.swift */,
+				5AF82E4C2A7E9E4B00050EA4 /* InfoRowView.swift */,
 				5AF82E4E2A7EB1C800050EA4 /* InfoDetailsView.swift */,
 			);
 			path = Info;
@@ -220,8 +261,11 @@
 				5AF82E5D2A7EC49700050EA4 /* HelloView.swift in Sources */,
 				5AF82E4B2A7E9C7200050EA4 /* InfoView.swift in Sources */,
 				5AF82E492A7E916500050EA4 /* Post.swift in Sources */,
+				5AE8407F2A7FC3BB00FB05CA /* ImageFielder.swift in Sources */,
 				5AF82E592A7EC0B600050EA4 /* TabBarView.swift in Sources */,
+				5AE840812A7FED0C00FB05CA /* AlbumImage.swift in Sources */,
 				5AF82E3D2A7E904C00050EA4 /* ContentView.swift in Sources */,
+				5AE8407B2A7FB04900FB05CA /* UserData.swift in Sources */,
 				5AF82E602A7EC77300050EA4 /* SettingsView.swift in Sources */,
 				5AF82E4F2A7EB1C800050EA4 /* InfoDetailsView.swift in Sources */,
 				5AF82E3B2A7E904C00050EA4 /* KCSongsApp.swift in Sources */,
