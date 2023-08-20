@@ -9,25 +9,29 @@ import SwiftUI
 
 struct InfoRowView: View {
     var post: Post
+    @Binding var isAlbumCoversShow: Bool
+    @Binding var rowHeight: Double
+
+    private func setTextSize() -> CGFloat {
+        switch rowHeight {
+        case 45...90:
+            return 16
+        case 90...110:
+            return 20
+        case 110...150:
+            return 23
+        default:
+            return 15
+        }
+    }
 
     var body: some View {
         HStack {
-            post.image
-                .resizable()
-                .scaledToFill()
-                .clipShape(Circle())
-                .frame(width: 60, height: 60)
-                .padding(.leading, 12)
-            Text(post.title)
-
+            isAlbumCoversShow
+            ? AlbumImage(image: post.image, size: $rowHeight)
+            : AlbumImage(image: Image("hidden"), size: $rowHeight)
+            Text(post.title).font(Font.custom("Lato-Regular", size: setTextSize()))
             Spacer()
         }
-    }
-}
-
-
-struct InfoRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        InfoRowView(post: Post.data[0])
     }
 }

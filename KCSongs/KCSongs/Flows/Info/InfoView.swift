@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct InfoView: View {
+    @Binding var titleOn: Bool
+    @Binding var isAlbumCoversShow: Bool
+    @Binding var rowHeight: Double
+
     var body: some View {
         NavigationView {
             List(Post.data) { post in
@@ -16,18 +20,23 @@ struct InfoView: View {
 
                 } label: {
                     // view to represent one row of data with image and title
-                    InfoRowView(post: post)
+                    InfoRowView(post: post, isAlbumCoversShow: $isAlbumCoversShow, rowHeight: $rowHeight)
                 }
-
+                .frame(height: rowHeight)
             }
-            .navigationTitle("Альбомы Киш")
+            .navigationTitle(titleOn ? "Альбомы Киш" : "")
             .listStyle(.plain)
+
         }
     }
 }
 
 struct InfoView_Previews: PreviewProvider {
+    @State static var titleOn = true
+    @State static var isAlbumCoversShow = true
+    @State static var rowHeight = 60.0
+
     static var previews: some View {
-        InfoView()
+        InfoView(titleOn: $titleOn, isAlbumCoversShow: $isAlbumCoversShow, rowHeight: $rowHeight)
     }
 }

@@ -8,28 +8,36 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @State private var isToggleOn = false
-    @State private var sliderValue = 10.0
+    private let range = 45.0...150.0
+
+    @Environment(\.colorScheme) var colorScheme
+
+    @State private var isChanging = false
+    @Binding var rowHeight: Double
+    @Binding var isTitleOn: Bool
+    @Binding var isAlbumCoversShow: Bool
+
     @State private var selectedOption = 0
     private let options = ["Option 1", "Option 2", "Option 3"]
 
     var body: some View {
         ZStack {
             Color(.systemGray5)
-
+            ///
             Form {
                 Section {
-                    Text("Section One")
-                    Text("Text")
-                    Toggle("Some toogle", isOn: $isToggleOn.animation())
-                    if isToggleOn {
-                        Text("Toggle On")
-                    }
+                    Text(colorScheme == .light ? "Light Theme enabled" : "Dark Theme enabled")
                 }
-
+                ///
                 Section {
-                    Text("Section Two")
-                    Slider(value: $sliderValue, in: 0...100)
+                    Toggle("Show title", isOn: $isTitleOn.animation())
+                    if isTitleOn {
+                        Text("Navigation title enabled")
+                    }
+                    Toggle("Show album covers", isOn: $isAlbumCoversShow.animation())
+                    if !isAlbumCoversShow {
+                        Text("No one will see album covers")
+                    }
                     Picker("Select an option", selection: $selectedOption) {
                         ForEach(0..<3) { index in
                             Text(options[index])
@@ -37,14 +45,26 @@ struct SettingsView: View {
                     }
                     Text("\(options[selectedOption]) is selected")
                 }
+                ///
+                Section {
+                    Text("Высота ячейки \(Int(rowHeight))")
+                    Slider(value: $rowHeight, in: range) { changed in
+                        withAnimation {
+                            isChanging = changed
+                        }
+                    }
+                    if isChanging {
+                            List(Post.demoPost) { post in
+                                InfoRowView(
+                                    post: post,
+                                    isAlbumCoversShow: $isAlbumCoversShow,
+                                    rowHeight: $rowHeight
+                                )
+                                    .frame(height: rowHeight)
+                            }
+                    }
+                }
             }
         }
-    }
-}
-
-
-struct SettingsView_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingsView()
     }
 }
