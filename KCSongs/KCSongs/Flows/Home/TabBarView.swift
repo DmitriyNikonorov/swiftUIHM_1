@@ -19,9 +19,9 @@ struct TabBarView: View {
                     }
 
                 ///
-                HelloView()
+                PlayerView()
                     .tabItem {
-                        Label("Hello", systemImage: "house")
+                        Label("Player", systemImage: "play.circle.fill")
                     }
                 ///
                 SettingsView(rowHeight: $userData.rowHeight, isTitleOn: $userData.isTitleOn, isAlbumCoversShow: $userData.isAlbumCoversShow)

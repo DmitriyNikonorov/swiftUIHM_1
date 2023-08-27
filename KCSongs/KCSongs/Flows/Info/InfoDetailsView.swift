@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InfoDetailsView: View {
     let post: Post
+    @Binding var selectedAlbum: AlbumName
 
     var body: some View {
         ScrollView {
@@ -19,6 +20,16 @@ struct InfoDetailsView: View {
                 .shadow(radius: 10)
 
             VStack(alignment: .leading) {
+                    Button(action: {
+                        selectedAlbum = post.title
+                    }) {
+                        Text(post.title == selectedAlbum
+                             ? "В плеере"
+                             : "Добавить в плеер")
+                    }
+                    .foregroundColor(.blue)
+                Divider()
+
                 Text(post.year)
                     .font(.title3).fontWeight(.black)
                     .foregroundColor(.black)
@@ -28,18 +39,9 @@ struct InfoDetailsView: View {
             .padding()
 
         }
-        .navigationTitle(post.title)
+        .navigationTitle(post.title.rawValue)
         .background(Color(.systemGray6))
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: BackButtonView())
-    }
-
-}
-
-
-
-struct InfoDetailsView_Previews: PreviewProvider {
-    static var previews: some View {
-        InfoDetailsView(post: Post.data[0])
     }
 }

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct InfoView: View {
+    @ObservedObject private var albumService = AlbumService.shared
+
     @Binding var titleOn: Bool
     @Binding var isAlbumCoversShow: Bool
     @Binding var rowHeight: Double
@@ -16,17 +18,22 @@ struct InfoView: View {
         NavigationView {
             List(Post.data) { post in
                 NavigationLink {
-                    InfoDetailsView(post: post)
+                    InfoDetailsView(
+                        post: post,
+                        selectedAlbum: $albumService.selectedAlbum
+                    )
 
                 } label: {
-                    // view to represent one row of data with image and title
-                    InfoRowView(post: post, isAlbumCoversShow: $isAlbumCoversShow, rowHeight: $rowHeight)
+                    InfoRowView(
+                        post: post,
+                        isAlbumCoversShow: $isAlbumCoversShow,
+                        rowHeight: $rowHeight
+                    )
                 }
                 .frame(height: rowHeight)
             }
             .navigationTitle(titleOn ? "Альбомы Киш" : "")
             .listStyle(.plain)
-
         }
     }
 }

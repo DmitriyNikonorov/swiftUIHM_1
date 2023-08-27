@@ -43,7 +43,8 @@ struct SettingsView: View {
                             Text(options[index])
                         }
                     }
-                    Text("\(options[selectedOption]) is selected")
+//                    Text("\(options[selectedOption]) is selected")
+                    .pickerStyle(.segmented)
                 }
                 ///
                 Section {
