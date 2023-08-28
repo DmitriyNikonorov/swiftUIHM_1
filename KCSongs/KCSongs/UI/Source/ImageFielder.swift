@@ -12,7 +12,6 @@ struct ImageFielder: ViewModifier {
         content
             .scaledToFill()
             .clipShape(Circle())
-//            .frame(width: 60, height: 60)
             .padding(.leading, 12)
     }
 }

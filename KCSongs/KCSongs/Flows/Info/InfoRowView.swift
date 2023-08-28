@@ -30,7 +30,7 @@ struct InfoRowView: View {
             isAlbumCoversShow
             ? AlbumImage(image: post.image, size: $rowHeight)
             : AlbumImage(image: Image("hidden"), size: $rowHeight)
-            Text(post.title).font(Font.custom("Lato-Regular", size: setTextSize()))
+            Text(post.title.rawValue).font(Font.custom("Lato-Regular", size: setTextSize()))
             Spacer()
         }
     }

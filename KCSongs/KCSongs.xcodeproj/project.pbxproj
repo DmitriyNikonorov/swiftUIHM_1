@@ -7,6 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1CFFCF2A9A1E1E0090E211 /* AlbumName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CFFCE2A9A1E1E0090E211 /* AlbumName.swift */; };
+		5A1CFFD12A9A1F9E0090E211 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CFFD02A9A1F9E0090E211 /* Album.swift */; };
+		5A1CFFD32A9B556A0090E211 /* AlbumImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CFFD22A9B556A0090E211 /* AlbumImageModel.swift */; };
+		5A1CFFD52A9B567F0090E211 /* AlbumImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1CFFD42A9B567F0090E211 /* AlbumImageView.swift */; };
+		5A3E2CDC2A9730E5004AE3B7 /* AlbumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E2CDB2A9730E5004AE3B7 /* AlbumService.swift */; };
+		5A3E2CDF2A9731E6004AE3B7 /* CurrentTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E2CDE2A9731E6004AE3B7 /* CurrentTrack.swift */; };
+		5A3E2D9C2A9736BD004AE3B7 /* Запрет отца.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE12A97368B004AE3B7 /* Запрет отца.mp3 */; };
+		5A3E2D9D2A9736BD004AE3B7 /* Кузнец.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE22A97368B004AE3B7 /* Кузнец.mp3 */; };
+		5A3E2D9E2A9736BD004AE3B7 /* Что видел малыш.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE32A97368B004AE3B7 /* Что видел малыш.mp3 */; };
+		5A3E2D9F2A9736BD004AE3B7 /* Бродяга И Старик.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE42A97368B004AE3B7 /* Бродяга И Старик.mp3 */; };
+		5A3E2DA02A9736BD004AE3B7 /* Невеста палача.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE52A97368B004AE3B7 /* Невеста палача.mp3 */; };
+		5A3E2DA12A9736BD004AE3B7 /* Про Ивана.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE62A97368B004AE3B7 /* Про Ивана.mp3 */; };
+		5A3E2DA22A9736BD004AE3B7 /* Вор, граф и графиня.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE72A97368B004AE3B7 /* Вор, граф и графиня.mp3 */; };
+		5A3E2DA32A9736BD004AE3B7 /* Паника в селе (live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE82A97368B004AE3B7 /* Паника в селе (live).mp3 */; };
+		5A3E2DA42A9736BD004AE3B7 /* Смерть халдея.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CE92A97368B004AE3B7 /* Смерть халдея.mp3 */; };
+		5A3E2DA52A9736BD004AE3B7 /* Помнят С Горечью Древляне.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CEA2A97368B004AE3B7 /* Помнят С Горечью Древляне.mp3 */; };
+		5A3E2DA62A9736BD004AE3B7 /* Дед на свадьбе.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CEB2A97368B004AE3B7 /* Дед на свадьбе.mp3 */; };
+		5A3E2DA72A9736BD004AE3B7 /* Мастер приглашает в гости.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CEC2A97368B004AE3B7 /* Мастер приглашает в гости.mp3 */; };
+		5A3E2DA82A9736BD004AE3B7 /* Разговор с гоблином.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CED2A97368B004AE3B7 /* Разговор с гоблином.mp3 */; };
+		5A3E2DA92A9736BD004AE3B7 /* Разбойники (live).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CEE2A97368B004AE3B7 /* Разбойники (live).mp3 */; };
+		5A3E2DAA2A9736BD004AE3B7 /* Воспоминания о былой.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CEF2A97368B004AE3B7 /* Воспоминания о былой.mp3 */; };
+		5A3E2DAB2A9736BD004AE3B7 /* Сосиска.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF12A973691004AE3B7 /* Сосиска.mp3 */; };
+		5A3E2DAC2A9736BD004AE3B7 /* Голые коки.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF22A973691004AE3B7 /* Голые коки.mp3 */; };
+		5A3E2DAD2A9736BD004AE3B7 /* Тяни!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF32A973691004AE3B7 /* Тяни!.mp3 */; };
+		5A3E2DAF2A9736BD004AE3B7 /* Прыгну со скалы.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF52A973691004AE3B7 /* Прыгну со скалы.mp3 */; };
+		5A3E2DB02A9736BD004AE3B7 /* Екатерина.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF62A973691004AE3B7 /* Екатерина.mp3 */; };
+		5A3E2DB12A9736BD004AE3B7 /* Спятил отец.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF72A973691004AE3B7 /* Спятил отец.mp3 */; };
+		5A3E2DB22A9736BD004AE3B7 /* Бедняжка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF82A973691004AE3B7 /* Бедняжка.mp3 */; };
+		5A3E2DB32A9736BD004AE3B7 /* Карапуз.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CF92A973691004AE3B7 /* Карапуз.mp3 */; };
+		5A3E2DB42A9736BD004AE3B7 /* Прерванная любовь, или Арбузная корка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CFA2A973691004AE3B7 /* Прерванная любовь, или Арбузная корка.mp3 */; };
+		5A3E2DB52A9736BD004AE3B7 /* Песня мушкетеров.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CFB2A973691004AE3B7 /* Песня мушкетеров.mp3 */; };
+		5A3E2DB62A9736BD004AE3B7 /* Утренний Рассвет.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CFC2A973691004AE3B7 /* Утренний Рассвет.mp3 */; };
+		5A3E2DB72A9736BD004AE3B7 /* Наблюдатель.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CFD2A973691004AE3B7 /* Наблюдатель.mp3 */; };
+		5A3E2DB82A9736BD004AE3B7 /* Кукла колдуна.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CFE2A973691004AE3B7 /* Кукла колдуна.mp3 */; };
+		5A3E2DB92A9736BD004AE3B7 /* Забытые ботинки.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2CFF2A973691004AE3B7 /* Забытые ботинки.mp3 */; };
+		5A3E2DBA2A9736BD004AE3B7 /* Девушка и Граф.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D002A973691004AE3B7 /* Девушка и Граф.mp3 */; };
+		5A3E2DBB2A9736BD004AE3B7 /* Ведьма и Осел.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D012A973691004AE3B7 /* Ведьма и Осел.mp3 */; };
+		5A3E2DBC2A9736BD004AE3B7 /* Генрих и Смерть.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D032A973696004AE3B7 /* Генрих и Смерть.mp3 */; };
+		5A3E2DBD2A9736BD004AE3B7 /* Мертвый Анархист.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D042A973696004AE3B7 /* Мертвый Анархист.mp3 */; };
+		5A3E2DBE2A9736BD004AE3B7 /* Утопленник.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D052A973696004AE3B7 /* Утопленник.mp3 */; };
+		5A3E2DBF2A9736BD004AE3B7 /* Представляю Я.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D062A973696004AE3B7 /* Представляю Я.mp3 */; };
+		5A3E2DC02A9736BD004AE3B7 /* Смешной Совет.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D072A973696004AE3B7 /* Смешной Совет.mp3 */; };
+		5A3E2DC12A9736BD004AE3B7 /* Медведь.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D082A973696004AE3B7 /* Медведь.mp3 */; };
+		5A3E2DC32A9736BD004AE3B7 /* Песенка Пьяного Деда.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D0A2A973696004AE3B7 /* Песенка Пьяного Деда.mp3 */; };
+		5A3E2DC42A9736BD004AE3B7 /* Водяной.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D0B2A973696004AE3B7 /* Водяной.mp3 */; };
+		5A3E2DC52A9736BD004AE3B7 /* Мой Характер.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D0C2A973696004AE3B7 /* Мой Характер.mp3 */; };
+		5A3E2DC62A9736BD004AE3B7 /* Вино хоббитов.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D0D2A973696004AE3B7 /* Вино хоббитов.mp3 */; };
+		5A3E2DC72A9736BD004AE3B7 /* Жаль, нет Ружья!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D0E2A973696004AE3B7 /* Жаль, нет Ружья!.mp3 */; };
+		5A3E2DC82A9736BD004AE3B7 /* Вдова и Горбун.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D0F2A973696004AE3B7 /* Вдова и Горбун.mp3 */; };
+		5A3E2DC92A9736BD004AE3B7 /* Волосокрад.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D102A973696004AE3B7 /* Волосокрад.mp3 */; };
+		5A3E2DCA2A9736BD004AE3B7 /* Разборки из-за Баб.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D112A973696004AE3B7 /* Разборки из-за Баб.mp3 */; };
+		5A3E2DCB2A9736BD004AE3B7 /* Пьянка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D122A973696004AE3B7 /* Пьянка.mp3 */; };
+		5A3E2DCC2A9736BD004AE3B7 /* Некромант.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D132A973696004AE3B7 /* Некромант.mp3 */; };
+		5A3E2DCD2A9736BD004AE3B7 /* Гимн шута.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D152A97369C004AE3B7 /* Гимн шута.mp3 */; };
+		5A3E2DCE2A9736BD004AE3B7 /* Два Монаха В Одну Ночь.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D162A97369C004AE3B7 /* Два Монаха В Одну Ночь.mp3 */; };
+		5A3E2DCF2A9736BD004AE3B7 /* Похороны панка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D172A97369C004AE3B7 /* Похороны панка.mp3 */; };
+		5A3E2DD02A9736BD004AE3B7 /* Кузьма и барин.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D182A97369C004AE3B7 /* Кузьма и барин.mp3 */; };
+		5A3E2DD12A9736BD004AE3B7 /* Парень и леший.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D192A97369C004AE3B7 /* Парень и леший.mp3 */; };
+		5A3E2DD22A9736BD004AE3B7 /* Возвращение колдуна.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D1A2A97369C004AE3B7 /* Возвращение колдуна.mp3 */; };
+		5A3E2DD32A9736BD004AE3B7 /* Ответ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D1B2A97369C004AE3B7 /* Ответ.mp3 */; };
+		5A3E2DD42A9736BD004AE3B7 /* Пивной череп.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D1C2A97369C004AE3B7 /* Пивной череп.mp3 */; };
+		5A3E2DD52A9736BD004AE3B7 /* Зловещий кузен.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D1D2A97369C004AE3B7 /* Зловещий кузен.mp3 */; };
+		5A3E2DD62A9736BD004AE3B7 /* Кто это все придумал.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D1E2A97369C004AE3B7 /* Кто это все придумал.mp3 */; };
+		5A3E2DD72A9736BD004AE3B7 /* Рогатый.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D1F2A97369C004AE3B7 /* Рогатый.mp3 */; };
+		5A3E2DD82A9736BD004AE3B7 /* Тайна хозяйки старинных часов.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D202A97369C004AE3B7 /* Тайна хозяйки старинных часов.mp3 */; };
+		5A3E2DD92A9736BD004AE3B7 /* Пират.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D212A97369C004AE3B7 /* Пират.mp3 */; };
+		5A3E2DDA2A9736BD004AE3B7 /* Проклятый старый дом.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D222A97369C004AE3B7 /* Проклятый старый дом.mp3 */; };
+		5A3E2DDB2A9736BD004AE3B7 /* Скотный двор.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D232A97369C004AE3B7 /* Скотный двор.mp3 */; };
+		5A3E2DDC2A9736BD004AE3B7 /* Двухголовый отпрыск.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D242A97369C004AE3B7 /* Двухголовый отпрыск.mp3 */; };
+		5A3E2DDD2A9736BD004AE3B7 /* Воспоминания о былой любви.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D252A97369C004AE3B7 /* Воспоминания о былой любви.mp3 */; };
+		5A3E2DDE2A9736BD004AE3B7 /* Мадам Жоржетт.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D272A9736A0004AE3B7 /* Мадам Жоржетт.mp3 */; };
+		5A3E2DDF2A9736BD004AE3B7 /* Танец злобного гения.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D282A9736A0004AE3B7 /* Танец злобного гения.mp3 */; };
+		5A3E2DE02A9736BD004AE3B7 /* Бал лицемеров.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D292A9736A0004AE3B7 /* Бал лицемеров.mp3 */; };
+		5A3E2DE12A9736BD004AE3B7 /* Энди Кауфман.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D2A2A9736A0004AE3B7 /* Энди Кауфман.mp3 */; };
+		5A3E2DE22A9736BD004AE3B7 /* Киногерой.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D2B2A9736A0004AE3B7 /* Киногерой.mp3 */; };
+		5A3E2DE32A9736BD004AE3B7 /* Защитники.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D2C2A9736A0004AE3B7 /* Защитники.mp3 */; };
+		5A3E2DE42A9736BD004AE3B7 /* Темный учитель.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D2D2A9736A0004AE3B7 /* Темный учитель.mp3 */; };
+		5A3E2DE52A9736BD004AE3B7 /* Король вечного сна.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D2E2A9736A0004AE3B7 /* Король вечного сна.mp3 */; };
+		5A3E2DE62A9736BD004AE3B7 /* Послание.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D2F2A9736A0004AE3B7 /* Послание.mp3 */; };
+		5A3E2DE72A9736BD004AE3B7 /* Фокусник.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D302A9736A0004AE3B7 /* Фокусник.mp3 */; };
+		5A3E2DE82A9736BD004AE3B7 /* Бунтарь.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D312A9736A0004AE3B7 /* Бунтарь.mp3 */; };
+		5A3E2DE92A9736BD004AE3B7 /* Театральный демон.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D322A9736A0004AE3B7 /* Театральный демон.mp3 */; };
+		5A3E2DEA2A9736BD004AE3B7 /* Признание Ловетт (Ария Ловетт).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D342A9736A4004AE3B7 /* Признание Ловетт (Ария Ловетт).mp3 */; };
+		5A3E2DEB2A9736BD004AE3B7 /* Машина смерти (Ария Ловетт и Мясника).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D352A9736A4004AE3B7 /* Машина смерти (Ария Ловетт и Мясника).mp3 */; };
+		5A3E2DEC2A9736BD004AE3B7 /* Смертный Приговор (Ария Тодда и Мясника).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D362A9736A4004AE3B7 /* Смертный Приговор (Ария Тодда и Мясника).mp3 */; };
+		5A3E2DED2A9736BD004AE3B7 /* Первая Кровь (Ария Священника и Тодда).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D372A9736A4004AE3B7 /* Первая Кровь (Ария Священника и Тодда).mp3 */; };
+		5A3E2DEE2A9736BD004AE3B7 /* Добрые люди (Хор нищих).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D382A9736A4004AE3B7 /* Добрые люди (Хор нищих).mp3 */; };
+		5A3E2DEF2A9736BD004AE3B7 /* Праздник крови (Ария Судьи).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D392A9736A4004AE3B7 /* Праздник крови (Ария Судьи).mp3 */; };
+		5A3E2DF02A9736BD004AE3B7 /* Новая Пирожковая (Ария благородной толпы).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D3A2A9736A4004AE3B7 /* Новая Пирожковая (Ария благородной толпы).mp3 */; };
+		5A3E2DF12A9736BD004AE3B7 /* Счастье (Ария Тодда).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D3B2A9736A4004AE3B7 /* Счастье (Ария Тодда).mp3 */; };
+		5A3E2DF22A9736BD004AE3B7 /* Баллада о Бедном Цирюльнике (Ария Бродяги).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D3C2A9736A4004AE3B7 /* Баллада о Бедном Цирюльнике (Ария Бродяги).mp3 */; };
+		5A3E2DF32A9736BD004AE3B7 /* Каторжник (Ария Тодда).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D3D2A9736A4004AE3B7 /* Каторжник (Ария Тодда).mp3 */; };
+		5A3E2DF42A9736BD004AE3B7 /* Пирожки от Ловетт (Хор нищих и бродяг).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D3E2A9736A4004AE3B7 /* Пирожки от Ловетт (Хор нищих и бродяг).mp3 */; };
+		5A3E2DF52A9736BD004AE3B7 /* Хардкор по-русски.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D402A9736A7004AE3B7 /* Хардкор по-русски.mp3 */; };
+		5A3E2DF62A9736BD004AE3B7 /* Муха - маленькая птичка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D412A9736A7004AE3B7 /* Муха - маленькая птичка.mp3 */; };
+		5A3E2DF72A9736BD004AE3B7 /* Идол.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D422A9736A7004AE3B7 /* Идол.mp3 */; };
+		5A3E2DF82A9736BD004AE3B7 /* Рыцарь.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D432A9736A7004AE3B7 /* Рыцарь.mp3 */; };
+		5A3E2DF92A9736BD004AE3B7 /* Задира и солдат.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D442A9736A7004AE3B7 /* Задира и солдат.mp3 */; };
+		5A3E2DFA2A9736BD004AE3B7 /* Раненый воин.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D452A9736A7004AE3B7 /* Раненый воин.mp3 */; };
+		5A3E2DFB2A9736BD004AE3B7 /* Северный флот.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D462A9736A7004AE3B7 /* Северный флот.mp3 */; };
+		5A3E2DFC2A9736BD004AE3B7 /* Хороший пират - Мертвый пират.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D472A9736A7004AE3B7 /* Хороший пират - Мертвый пират.mp3 */; };
+		5A3E2DFD2A9736BD004AE3B7 /* Исповедь вампира.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D482A9736A7004AE3B7 /* Исповедь вампира.mp3 */; };
+		5A3E2DFE2A9736BD004AE3B7 /* Инквизитор.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D492A9736A7004AE3B7 /* Инквизитор.mp3 */; };
+		5A3E2DFF2A9736BD004AE3B7 /* Месть Гарри.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D4A2A9736A7004AE3B7 /* Месть Гарри.mp3 */; };
+		5A3E2E002A9736BD004AE3B7 /* Звонок.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D4B2A9736A7004AE3B7 /* Звонок.mp3 */; };
+		5A3E2E012A9736BD004AE3B7 /* Бунт на корабле!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D4C2A9736A7004AE3B7 /* Бунт на корабле!.mp3 */; };
+		5A3E2E022A9736BD004AE3B7 /* Волшебный глаз старика Алонса.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D4D2A9736A7004AE3B7 /* Волшебный глаз старика Алонса.mp3 */; };
+		5A3E2E032A9736BD004AE3B7 /* Хозяин леса.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D4E2A9736A7004AE3B7 /* Хозяин леса.mp3 */; };
+		5A3E2E042A9736BD004AE3B7 /* Отец и маски.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D502A9736AC004AE3B7 /* Отец и маски.mp3 */; };
+		5A3E2E052A9736BD004AE3B7 /* Сказка про дракона.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D512A9736AC004AE3B7 /* Сказка про дракона.mp3 */; };
+		5A3E2E062A9736BD004AE3B7 /* Сапоги Мертвеца.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D522A9736AC004AE3B7 /* Сапоги Мертвеца.mp3 */; };
+		5A3E2E072A9736BD004AE3B7 /* Паника в селе.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D532A9736AC004AE3B7 /* Паника в селе.mp3 */; };
+		5A3E2E082A9736BD004AE3B7 /* Инструмент.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D542A9736AC004AE3B7 /* Инструмент.mp3 */; };
+		5A3E2E092A9736BD004AE3B7 /* История о мертвой женщине.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D552A9736AC004AE3B7 /* История о мертвой женщине.mp3 */; };
+		5A3E2E0A2A9736BD004AE3B7 /* Валет и Дама.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D562A9736AC004AE3B7 /* Валет и Дама.mp3 */; };
+		5A3E2E0B2A9736BD004AE3B7 /* Два друга и разбойники.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D572A9736AC004AE3B7 /* Два друга и разбойники.mp3 */; };
+		5A3E2E0C2A9736BD004AE3B7 /* Веселые тролли.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D582A9736AC004AE3B7 /* Веселые тролли.mp3 */; };
+		5A3E2E0D2A9736BD004AE3B7 /* Истинный Убийца.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D592A9736AC004AE3B7 /* Истинный Убийца.mp3 */; };
+		5A3E2E0E2A9736BD004AE3B7 /* Король и Шут.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D5A2A9736AC004AE3B7 /* Король и Шут.mp3 */; };
+		5A3E2E0F2A9736BD004AE3B7 /* Собрание.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D5B2A9736AC004AE3B7 /* Собрание.mp3 */; };
+		5A3E2E102A9736BD004AE3B7 /* Охотник.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D5C2A9736AC004AE3B7 /* Охотник.mp3 */; };
+		5A3E2E112A9736BD004AE3B7 /* Он не знает, что такое жить.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D5D2A9736AC004AE3B7 /* Он не знает, что такое жить.mp3 */; };
+		5A3E2E122A9736BD004AE3B7 /* Лесник.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D5E2A9736AC004AE3B7 /* Лесник.mp3 */; };
+		5A3E2E132A9736BD004AE3B7 /* Кукольный театр.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D5F2A9736AC004AE3B7 /* Кукольный театр.mp3 */; };
+		5A3E2E142A9736BD004AE3B7 /* Помоги Мне.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D602A9736AC004AE3B7 /* Помоги Мне.mp3 */; };
+		5A3E2E152A9736BD004AE3B7 /* Внезапная голова.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D622A9736B1004AE3B7 /* Внезапная голова.mp3 */; };
+		5A3E2E162A9736BD004AE3B7 /* От женщин кругом голова.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D632A9736B1004AE3B7 /* От женщин кругом голова.mp3 */; };
+		5A3E2E172A9736BD004AE3B7 /* Два вора и монета.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D642A9736B1004AE3B7 /* Два вора и монета.mp3 */; };
+		5A3E2E182A9736BD004AE3B7 /* Леший обиделся.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D652A9736B1004AE3B7 /* Леший обиделся.mp3 */; };
+		5A3E2E1A2A9736BD004AE3B7 /* Смельчак и ветер.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D672A9736B1004AE3B7 /* Смельчак и ветер.mp3 */; };
+		5A3E2E1B2A9736BD004AE3B7 /* Верная Жена.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D682A9736B1004AE3B7 /* Верная Жена.mp3 */; };
+		5A3E2E1C2A9736BD004AE3B7 /* Садовник.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D692A9736B1004AE3B7 /* Садовник.mp3 */; };
+		5A3E2E1D2A9736BD004AE3B7 /* Шар голубой.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D6A2A9736B1004AE3B7 /* Шар голубой.mp3 */; };
+		5A3E2E1E2A9736BD004AE3B7 /* Рыбак.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D6B2A9736B1004AE3B7 /* Рыбак.mp3 */; };
+		5A3E2E1F2A9736BD004AE3B7 /* Злодей и шапка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D6C2A9736B1004AE3B7 /* Злодей и шапка.mp3 */; };
+		5A3E2E202A9736BD004AE3B7 /* С тех пор как он ушел.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D6D2A9736B1004AE3B7 /* С тех пор как он ушел.mp3 */; };
+		5A3E2E212A9736BD004AE3B7 /* Проказник Скоморох.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D6E2A9736B1004AE3B7 /* Проказник Скоморох.mp3 */; };
+		5A3E2E222A9736BD004AE3B7 /* В доме суета.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D6F2A9736B1004AE3B7 /* В доме суета.mp3 */; };
+		5A3E2E232A9736BD004AE3B7 /* Дурак и молния.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D702A9736B1004AE3B7 /* Дурак и молния.mp3 */; };
+		5A3E2E242A9736BD004AE3B7 /* Холодное тело.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D712A9736B1004AE3B7 /* Холодное тело.mp3 */; };
+		5A3E2E252A9736BD004AE3B7 /* Блуждают тени.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D722A9736B1004AE3B7 /* Блуждают тени.mp3 */; };
+		5A3E2E262A9736BD004AE3B7 /* Лесные разбойники.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D732A9736B1004AE3B7 /* Лесные разбойники.mp3 */; };
+		5A3E2E272A9736BD004AE3B7 /* Камнем По Голове.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D742A9736B1004AE3B7 /* Камнем По Голове.mp3 */; };
+		5A3E2E282A9736BD004AE3B7 /* Любовь и Пропеллер.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D752A9736B1004AE3B7 /* Любовь и Пропеллер.mp3 */; };
+		5A3E2E292A9736BD004AE3B7 /* Мария.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D762A9736B1004AE3B7 /* Мария.mp3 */; };
+		5A3E2E2A2A9736BD004AE3B7 /* Дагон.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D782A9736B7004AE3B7 /* Дагон.mp3 */; };
+		5A3E2E2B2A9736BD004AE3B7 /* Вестник.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D792A9736B7004AE3B7 /* Вестник.mp3 */; };
+		5A3E2E2C2A9736BD004AE3B7 /* Полутень клоуна.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D7A2A9736B7004AE3B7 /* Полутень клоуна.mp3 */; };
+		5A3E2E2D2A9736BD004AE3B7 /* Клейменный огнем.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D7B2A9736B7004AE3B7 /* Клейменный огнем.mp3 */; };
+		5A3E2E2E2A9736BD004AE3B7 /* В Париж домой.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D7C2A9736B7004AE3B7 /* В Париж домой.mp3 */; };
+		5A3E2E2F2A9736BD004AE3B7 /* Смешной пистолетик.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D7D2A9736B7004AE3B7 /* Смешной пистолетик.mp3 */; };
+		5A3E2E302A9736BD004AE3B7 /* Полутень зомби.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D7E2A9736B7004AE3B7 /* Полутень зомби.mp3 */; };
+		5A3E2E312A9736BD004AE3B7 /* Кода.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D7F2A9736B7004AE3B7 /* Кода.mp3 */; };
+		5A3E2E322A9736BD004AE3B7 /* Ричард Гордон.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D802A9736B7004AE3B7 /* Ричард Гордон.mp3 */; };
+		5A3E2E332A9736BD004AE3B7 /* Суфлер.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D812A9736B7004AE3B7 /* Суфлер.mp3 */; };
+		5A3E2E342A9736BD004AE3B7 /* Фред.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D822A9736B7004AE3B7 /* Фред.mp3 */; };
+		5A3E2E352A9736BD004AE3B7 /* Санта Клаус.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D832A9736B7004AE3B7 /* Санта Клаус.mp3 */; };
+		5A3E2E362A9736BD004AE3B7 /* Тень клоуна.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D842A9736B7004AE3B7 /* Тень клоуна.mp3 */; };
+		5A3E2E372A9736BD004AE3B7 /* A.M.T.V..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D852A9736B7004AE3B7 /* A.M.T.V..mp3 */; };
+		5A3E2E382A9736BD004AE3B7 /* Двое против всех.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D862A9736B7004AE3B7 /* Двое против всех.mp3 */; };
+		5A3E2E392A9736BD004AE3B7 /* Ходит зомби.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D872A9736B7004AE3B7 /* Ходит зомби.mp3 */; };
+		5A3E2E3A2A9736BD004AE3B7 /* Невидимка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D882A9736B7004AE3B7 /* Невидимка.mp3 */; };
+		5A3E2E3B2A9736BD004AE3B7 /* Тринадцатая рана.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D892A9736B7004AE3B7 /* Тринадцатая рана.mp3 */; };
+		5A3E2E3C2A9736BD004AE3B7 /* Полутень Заговор в суде.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D8A2A9736B7004AE3B7 /* Полутень Заговор в суде.mp3 */; };
+		5A3E2E3D2A9736BD004AE3B7 /* Город мертвецов.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D8C2A9736BD004AE3B7 /* Город мертвецов.mp3 */; };
+		5A3E2E3E2A9736BD004AE3B7 /* Дочка вурдалака.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D8D2A9736BD004AE3B7 /* Дочка вурдалака.mp3 */; };
+		5A3E2E3F2A9736BD004AE3B7 /* Джокер.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D8E2A9736BD004AE3B7 /* Джокер.mp3 */; };
+		5A3E2E402A9736BD004AE3B7 /* Свой среди чужих.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D8F2A9736BD004AE3B7 /* Свой среди чужих.mp3 */; };
+		5A3E2E412A9736BD004AE3B7 /* Ром.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D902A9736BD004AE3B7 /* Ром.mp3 */; };
+		5A3E2E422A9736BD004AE3B7 /* Хозяин таверны.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D912A9736BD004AE3B7 /* Хозяин таверны.mp3 */; };
+		5A3E2E432A9736BD004AE3B7 /* Писатель Гудвин.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D922A9736BD004AE3B7 /* Писатель Гудвин.mp3 */; };
+		5A3E2E442A9736BD004AE3B7 /* Гробовщик.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D932A9736BD004AE3B7 /* Гробовщик.mp3 */; };
+		5A3E2E452A9736BD004AE3B7 /* Пляски на могиле.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D942A9736BD004AE3B7 /* Пляски на могиле.mp3 */; };
+		5A3E2E462A9736BD004AE3B7 /* Отражение.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D952A9736BD004AE3B7 /* Отражение.mp3 */; };
+		5A3E2E472A9736BD004AE3B7 /* Матерый Волк.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D962A9736BD004AE3B7 /* Матерый Волк.mp3 */; };
+		5A3E2E482A9736BD004AE3B7 /* Та, что смотрит из пруда.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D972A9736BD004AE3B7 /* Та, что смотрит из пруда.mp3 */; };
+		5A3E2E492A9736BD004AE3B7 /* Продавец кошмаров.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D982A9736BD004AE3B7 /* Продавец кошмаров.mp3 */; };
+		5A3E2E4A2A9736BD004AE3B7 /* Марионетки.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D992A9736BD004AE3B7 /* Марионетки.mp3 */; };
+		5A3E2E4B2A9736BD004AE3B7 /* В гостях у соседа.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D9A2A9736BD004AE3B7 /* В гостях у соседа.mp3 */; };
+		5A3E2E4C2A9736BD004AE3B7 /* Маска.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E2D9B2A9736BD004AE3B7 /* Маска.mp3 */; };
+		5A884E602A92752200DC61DE /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A884E5F2A92752200DC61DE /* PlayerModel.swift */; };
+		5A884E622A927EBC00DC61DE /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A884E612A927EBC00DC61DE /* AudioTrack.swift */; };
 		5AE8407B2A7FB04900FB05CA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8407A2A7FB04900FB05CA /* UserData.swift */; };
 		5AE8407F2A7FC3BB00FB05CA /* ImageFielder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8407E2A7FC3BB00FB05CA /* ImageFielder.swift */; };
 		5AE840812A7FED0C00FB05CA /* AlbumImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE840802A7FED0C00FB05CA /* AlbumImage.swift */; };
@@ -20,11 +202,193 @@
 		5AF82E4F2A7EB1C800050EA4 /* InfoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E4E2A7EB1C800050EA4 /* InfoDetailsView.swift */; };
 		5AF82E512A7EBCE100050EA4 /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E502A7EBCE100050EA4 /* BackButtonView.swift */; };
 		5AF82E592A7EC0B600050EA4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E582A7EC0B600050EA4 /* TabBarView.swift */; };
-		5AF82E5D2A7EC49700050EA4 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E5C2A7EC49700050EA4 /* HelloView.swift */; };
+		5AF82E5D2A7EC49700050EA4 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E5C2A7EC49700050EA4 /* PlayerView.swift */; };
 		5AF82E602A7EC77300050EA4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF82E5F2A7EC77300050EA4 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A1CFFCE2A9A1E1E0090E211 /* AlbumName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumName.swift; sourceTree = "<group>"; };
+		5A1CFFD02A9A1F9E0090E211 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		5A1CFFD22A9B556A0090E211 /* AlbumImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImageModel.swift; sourceTree = "<group>"; };
+		5A1CFFD42A9B567F0090E211 /* AlbumImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImageView.swift; sourceTree = "<group>"; };
+		5A3E2CDB2A9730E5004AE3B7 /* AlbumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumService.swift; sourceTree = "<group>"; };
+		5A3E2CDE2A9731E6004AE3B7 /* CurrentTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTrack.swift; sourceTree = "<group>"; };
+		5A3E2CE12A97368B004AE3B7 /* Запрет отца.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Запрет отца.mp3"; sourceTree = "<group>"; };
+		5A3E2CE22A97368B004AE3B7 /* Кузнец.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Кузнец.mp3"; sourceTree = "<group>"; };
+		5A3E2CE32A97368B004AE3B7 /* Что видел малыш.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Что видел малыш.mp3"; sourceTree = "<group>"; };
+		5A3E2CE42A97368B004AE3B7 /* Бродяга И Старик.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Бродяга И Старик.mp3"; sourceTree = "<group>"; };
+		5A3E2CE52A97368B004AE3B7 /* Невеста палача.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Невеста палача.mp3"; sourceTree = "<group>"; };
+		5A3E2CE62A97368B004AE3B7 /* Про Ивана.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Про Ивана.mp3"; sourceTree = "<group>"; };
+		5A3E2CE72A97368B004AE3B7 /* Вор, граф и графиня.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Вор, граф и графиня.mp3"; sourceTree = "<group>"; };
+		5A3E2CE82A97368B004AE3B7 /* Паника в селе (live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Паника в селе (live).mp3"; sourceTree = "<group>"; };
+		5A3E2CE92A97368B004AE3B7 /* Смерть халдея.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Смерть халдея.mp3"; sourceTree = "<group>"; };
+		5A3E2CEA2A97368B004AE3B7 /* Помнят С Горечью Древляне.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Помнят С Горечью Древляне.mp3"; sourceTree = "<group>"; };
+		5A3E2CEB2A97368B004AE3B7 /* Дед на свадьбе.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Дед на свадьбе.mp3"; sourceTree = "<group>"; };
+		5A3E2CEC2A97368B004AE3B7 /* Мастер приглашает в гости.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мастер приглашает в гости.mp3"; sourceTree = "<group>"; };
+		5A3E2CED2A97368B004AE3B7 /* Разговор с гоблином.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Разговор с гоблином.mp3"; sourceTree = "<group>"; };
+		5A3E2CEE2A97368B004AE3B7 /* Разбойники (live).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Разбойники (live).mp3"; sourceTree = "<group>"; };
+		5A3E2CEF2A97368B004AE3B7 /* Воспоминания о былой.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Воспоминания о былой.mp3"; sourceTree = "<group>"; };
+		5A3E2CF12A973691004AE3B7 /* Сосиска.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Сосиска.mp3"; sourceTree = "<group>"; };
+		5A3E2CF22A973691004AE3B7 /* Голые коки.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Голые коки.mp3"; sourceTree = "<group>"; };
+		5A3E2CF32A973691004AE3B7 /* Тяни!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Тяни!.mp3"; sourceTree = "<group>"; };
+		5A3E2CF52A973691004AE3B7 /* Прыгну со скалы.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Прыгну со скалы.mp3"; sourceTree = "<group>"; };
+		5A3E2CF62A973691004AE3B7 /* Екатерина.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Екатерина.mp3"; sourceTree = "<group>"; };
+		5A3E2CF72A973691004AE3B7 /* Спятил отец.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Спятил отец.mp3"; sourceTree = "<group>"; };
+		5A3E2CF82A973691004AE3B7 /* Бедняжка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Бедняжка.mp3"; sourceTree = "<group>"; };
+		5A3E2CF92A973691004AE3B7 /* Карапуз.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Карапуз.mp3"; sourceTree = "<group>"; };
+		5A3E2CFA2A973691004AE3B7 /* Прерванная любовь, или Арбузная корка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Прерванная любовь, или Арбузная корка.mp3"; sourceTree = "<group>"; };
+		5A3E2CFB2A973691004AE3B7 /* Песня мушкетеров.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Песня мушкетеров.mp3"; sourceTree = "<group>"; };
+		5A3E2CFC2A973691004AE3B7 /* Утренний Рассвет.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Утренний Рассвет.mp3"; sourceTree = "<group>"; };
+		5A3E2CFD2A973691004AE3B7 /* Наблюдатель.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Наблюдатель.mp3"; sourceTree = "<group>"; };
+		5A3E2CFE2A973691004AE3B7 /* Кукла колдуна.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Кукла колдуна.mp3"; sourceTree = "<group>"; };
+		5A3E2CFF2A973691004AE3B7 /* Забытые ботинки.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Забытые ботинки.mp3"; sourceTree = "<group>"; };
+		5A3E2D002A973691004AE3B7 /* Девушка и Граф.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Девушка и Граф.mp3"; sourceTree = "<group>"; };
+		5A3E2D012A973691004AE3B7 /* Ведьма и Осел.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ведьма и Осел.mp3"; sourceTree = "<group>"; };
+		5A3E2D032A973696004AE3B7 /* Генрих и Смерть.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Генрих и Смерть.mp3"; sourceTree = "<group>"; };
+		5A3E2D042A973696004AE3B7 /* Мертвый Анархист.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мертвый Анархист.mp3"; sourceTree = "<group>"; };
+		5A3E2D052A973696004AE3B7 /* Утопленник.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Утопленник.mp3"; sourceTree = "<group>"; };
+		5A3E2D062A973696004AE3B7 /* Представляю Я.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Представляю Я.mp3"; sourceTree = "<group>"; };
+		5A3E2D072A973696004AE3B7 /* Смешной Совет.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Смешной Совет.mp3"; sourceTree = "<group>"; };
+		5A3E2D082A973696004AE3B7 /* Медведь.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Медведь.mp3"; sourceTree = "<group>"; };
+		5A3E2D0A2A973696004AE3B7 /* Песенка Пьяного Деда.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Песенка Пьяного Деда.mp3"; sourceTree = "<group>"; };
+		5A3E2D0B2A973696004AE3B7 /* Водяной.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Водяной.mp3"; sourceTree = "<group>"; };
+		5A3E2D0C2A973696004AE3B7 /* Мой Характер.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мой Характер.mp3"; sourceTree = "<group>"; };
+		5A3E2D0D2A973696004AE3B7 /* Вино хоббитов.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Вино хоббитов.mp3"; sourceTree = "<group>"; };
+		5A3E2D0E2A973696004AE3B7 /* Жаль, нет Ружья!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Жаль, нет Ружья!.mp3"; sourceTree = "<group>"; };
+		5A3E2D0F2A973696004AE3B7 /* Вдова и Горбун.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Вдова и Горбун.mp3"; sourceTree = "<group>"; };
+		5A3E2D102A973696004AE3B7 /* Волосокрад.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Волосокрад.mp3"; sourceTree = "<group>"; };
+		5A3E2D112A973696004AE3B7 /* Разборки из-за Баб.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Разборки из-за Баб.mp3"; sourceTree = "<group>"; };
+		5A3E2D122A973696004AE3B7 /* Пьянка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Пьянка.mp3"; sourceTree = "<group>"; };
+		5A3E2D132A973696004AE3B7 /* Некромант.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Некромант.mp3"; sourceTree = "<group>"; };
+		5A3E2D152A97369C004AE3B7 /* Гимн шута.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Гимн шута.mp3"; sourceTree = "<group>"; };
+		5A3E2D162A97369C004AE3B7 /* Два Монаха В Одну Ночь.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Два Монаха В Одну Ночь.mp3"; sourceTree = "<group>"; };
+		5A3E2D172A97369C004AE3B7 /* Похороны панка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Похороны панка.mp3"; sourceTree = "<group>"; };
+		5A3E2D182A97369C004AE3B7 /* Кузьма и барин.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Кузьма и барин.mp3"; sourceTree = "<group>"; };
+		5A3E2D192A97369C004AE3B7 /* Парень и леший.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Парень и леший.mp3"; sourceTree = "<group>"; };
+		5A3E2D1A2A97369C004AE3B7 /* Возвращение колдуна.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Возвращение колдуна.mp3"; sourceTree = "<group>"; };
+		5A3E2D1B2A97369C004AE3B7 /* Ответ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ответ.mp3"; sourceTree = "<group>"; };
+		5A3E2D1C2A97369C004AE3B7 /* Пивной череп.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Пивной череп.mp3"; sourceTree = "<group>"; };
+		5A3E2D1D2A97369C004AE3B7 /* Зловещий кузен.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Зловещий кузен.mp3"; sourceTree = "<group>"; };
+		5A3E2D1E2A97369C004AE3B7 /* Кто это все придумал.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Кто это все придумал.mp3"; sourceTree = "<group>"; };
+		5A3E2D1F2A97369C004AE3B7 /* Рогатый.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Рогатый.mp3"; sourceTree = "<group>"; };
+		5A3E2D202A97369C004AE3B7 /* Тайна хозяйки старинных часов.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Тайна хозяйки старинных часов.mp3"; sourceTree = "<group>"; };
+		5A3E2D212A97369C004AE3B7 /* Пират.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Пират.mp3"; sourceTree = "<group>"; };
+		5A3E2D222A97369C004AE3B7 /* Проклятый старый дом.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Проклятый старый дом.mp3"; sourceTree = "<group>"; };
+		5A3E2D232A97369C004AE3B7 /* Скотный двор.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Скотный двор.mp3"; sourceTree = "<group>"; };
+		5A3E2D242A97369C004AE3B7 /* Двухголовый отпрыск.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Двухголовый отпрыск.mp3"; sourceTree = "<group>"; };
+		5A3E2D252A97369C004AE3B7 /* Воспоминания о былой любви.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Воспоминания о былой любви.mp3"; sourceTree = "<group>"; };
+		5A3E2D272A9736A0004AE3B7 /* Мадам Жоржетт.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мадам Жоржетт.mp3"; sourceTree = "<group>"; };
+		5A3E2D282A9736A0004AE3B7 /* Танец злобного гения.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Танец злобного гения.mp3"; sourceTree = "<group>"; };
+		5A3E2D292A9736A0004AE3B7 /* Бал лицемеров.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Бал лицемеров.mp3"; sourceTree = "<group>"; };
+		5A3E2D2A2A9736A0004AE3B7 /* Энди Кауфман.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Энди Кауфман.mp3"; sourceTree = "<group>"; };
+		5A3E2D2B2A9736A0004AE3B7 /* Киногерой.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Киногерой.mp3"; sourceTree = "<group>"; };
+		5A3E2D2C2A9736A0004AE3B7 /* Защитники.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Защитники.mp3"; sourceTree = "<group>"; };
+		5A3E2D2D2A9736A0004AE3B7 /* Темный учитель.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Темный учитель.mp3"; sourceTree = "<group>"; };
+		5A3E2D2E2A9736A0004AE3B7 /* Король вечного сна.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Король вечного сна.mp3"; sourceTree = "<group>"; };
+		5A3E2D2F2A9736A0004AE3B7 /* Послание.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Послание.mp3"; sourceTree = "<group>"; };
+		5A3E2D302A9736A0004AE3B7 /* Фокусник.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Фокусник.mp3"; sourceTree = "<group>"; };
+		5A3E2D312A9736A0004AE3B7 /* Бунтарь.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Бунтарь.mp3"; sourceTree = "<group>"; };
+		5A3E2D322A9736A0004AE3B7 /* Театральный демон.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Театральный демон.mp3"; sourceTree = "<group>"; };
+		5A3E2D342A9736A4004AE3B7 /* Признание Ловетт (Ария Ловетт).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Признание Ловетт (Ария Ловетт).mp3"; sourceTree = "<group>"; };
+		5A3E2D352A9736A4004AE3B7 /* Машина смерти (Ария Ловетт и Мясника).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Машина смерти (Ария Ловетт и Мясника).mp3"; sourceTree = "<group>"; };
+		5A3E2D362A9736A4004AE3B7 /* Смертный Приговор (Ария Тодда и Мясника).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Смертный Приговор (Ария Тодда и Мясника).mp3"; sourceTree = "<group>"; };
+		5A3E2D372A9736A4004AE3B7 /* Первая Кровь (Ария Священника и Тодда).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Первая Кровь (Ария Священника и Тодда).mp3"; sourceTree = "<group>"; };
+		5A3E2D382A9736A4004AE3B7 /* Добрые люди (Хор нищих).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Добрые люди (Хор нищих).mp3"; sourceTree = "<group>"; };
+		5A3E2D392A9736A4004AE3B7 /* Праздник крови (Ария Судьи).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Праздник крови (Ария Судьи).mp3"; sourceTree = "<group>"; };
+		5A3E2D3A2A9736A4004AE3B7 /* Новая Пирожковая (Ария благородной толпы).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Новая Пирожковая (Ария благородной толпы).mp3"; sourceTree = "<group>"; };
+		5A3E2D3B2A9736A4004AE3B7 /* Счастье (Ария Тодда).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Счастье (Ария Тодда).mp3"; sourceTree = "<group>"; };
+		5A3E2D3C2A9736A4004AE3B7 /* Баллада о Бедном Цирюльнике (Ария Бродяги).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Баллада о Бедном Цирюльнике (Ария Бродяги).mp3"; sourceTree = "<group>"; };
+		5A3E2D3D2A9736A4004AE3B7 /* Каторжник (Ария Тодда).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Каторжник (Ария Тодда).mp3"; sourceTree = "<group>"; };
+		5A3E2D3E2A9736A4004AE3B7 /* Пирожки от Ловетт (Хор нищих и бродяг).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Пирожки от Ловетт (Хор нищих и бродяг).mp3"; sourceTree = "<group>"; };
+		5A3E2D402A9736A7004AE3B7 /* Хардкор по-русски.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Хардкор по-русски.mp3"; sourceTree = "<group>"; };
+		5A3E2D412A9736A7004AE3B7 /* Муха - маленькая птичка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Муха - маленькая птичка.mp3"; sourceTree = "<group>"; };
+		5A3E2D422A9736A7004AE3B7 /* Идол.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Идол.mp3"; sourceTree = "<group>"; };
+		5A3E2D432A9736A7004AE3B7 /* Рыцарь.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Рыцарь.mp3"; sourceTree = "<group>"; };
+		5A3E2D442A9736A7004AE3B7 /* Задира и солдат.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Задира и солдат.mp3"; sourceTree = "<group>"; };
+		5A3E2D452A9736A7004AE3B7 /* Раненый воин.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Раненый воин.mp3"; sourceTree = "<group>"; };
+		5A3E2D462A9736A7004AE3B7 /* Северный флот.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Северный флот.mp3"; sourceTree = "<group>"; };
+		5A3E2D472A9736A7004AE3B7 /* Хороший пират - Мертвый пират.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Хороший пират - Мертвый пират.mp3"; sourceTree = "<group>"; };
+		5A3E2D482A9736A7004AE3B7 /* Исповедь вампира.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Исповедь вампира.mp3"; sourceTree = "<group>"; };
+		5A3E2D492A9736A7004AE3B7 /* Инквизитор.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Инквизитор.mp3"; sourceTree = "<group>"; };
+		5A3E2D4A2A9736A7004AE3B7 /* Месть Гарри.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Месть Гарри.mp3"; sourceTree = "<group>"; };
+		5A3E2D4B2A9736A7004AE3B7 /* Звонок.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Звонок.mp3"; sourceTree = "<group>"; };
+		5A3E2D4C2A9736A7004AE3B7 /* Бунт на корабле!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Бунт на корабле!.mp3"; sourceTree = "<group>"; };
+		5A3E2D4D2A9736A7004AE3B7 /* Волшебный глаз старика Алонса.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Волшебный глаз старика Алонса.mp3"; sourceTree = "<group>"; };
+		5A3E2D4E2A9736A7004AE3B7 /* Хозяин леса.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Хозяин леса.mp3"; sourceTree = "<group>"; };
+		5A3E2D502A9736AC004AE3B7 /* Отец и маски.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Отец и маски.mp3"; sourceTree = "<group>"; };
+		5A3E2D512A9736AC004AE3B7 /* Сказка про дракона.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Сказка про дракона.mp3"; sourceTree = "<group>"; };
+		5A3E2D522A9736AC004AE3B7 /* Сапоги Мертвеца.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Сапоги Мертвеца.mp3"; sourceTree = "<group>"; };
+		5A3E2D532A9736AC004AE3B7 /* Паника в селе.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Паника в селе.mp3"; sourceTree = "<group>"; };
+		5A3E2D542A9736AC004AE3B7 /* Инструмент.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Инструмент.mp3"; sourceTree = "<group>"; };
+		5A3E2D552A9736AC004AE3B7 /* История о мертвой женщине.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "История о мертвой женщине.mp3"; sourceTree = "<group>"; };
+		5A3E2D562A9736AC004AE3B7 /* Валет и Дама.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Валет и Дама.mp3"; sourceTree = "<group>"; };
+		5A3E2D572A9736AC004AE3B7 /* Два друга и разбойники.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Два друга и разбойники.mp3"; sourceTree = "<group>"; };
+		5A3E2D582A9736AC004AE3B7 /* Веселые тролли.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Веселые тролли.mp3"; sourceTree = "<group>"; };
+		5A3E2D592A9736AC004AE3B7 /* Истинный Убийца.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Истинный Убийца.mp3"; sourceTree = "<group>"; };
+		5A3E2D5A2A9736AC004AE3B7 /* Король и Шут.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Король и Шут.mp3"; sourceTree = "<group>"; };
+		5A3E2D5B2A9736AC004AE3B7 /* Собрание.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Собрание.mp3"; sourceTree = "<group>"; };
+		5A3E2D5C2A9736AC004AE3B7 /* Охотник.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Охотник.mp3"; sourceTree = "<group>"; };
+		5A3E2D5D2A9736AC004AE3B7 /* Он не знает, что такое жить.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Он не знает, что такое жить.mp3"; sourceTree = "<group>"; };
+		5A3E2D5E2A9736AC004AE3B7 /* Лесник.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Лесник.mp3"; sourceTree = "<group>"; };
+		5A3E2D5F2A9736AC004AE3B7 /* Кукольный театр.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Кукольный театр.mp3"; sourceTree = "<group>"; };
+		5A3E2D602A9736AC004AE3B7 /* Помоги Мне.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Помоги Мне.mp3"; sourceTree = "<group>"; };
+		5A3E2D622A9736B1004AE3B7 /* Внезапная голова.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Внезапная голова.mp3"; sourceTree = "<group>"; };
+		5A3E2D632A9736B1004AE3B7 /* От женщин кругом голова.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "От женщин кругом голова.mp3"; sourceTree = "<group>"; };
+		5A3E2D642A9736B1004AE3B7 /* Два вора и монета.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Два вора и монета.mp3"; sourceTree = "<group>"; };
+		5A3E2D652A9736B1004AE3B7 /* Леший обиделся.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Леший обиделся.mp3"; sourceTree = "<group>"; };
+		5A3E2D672A9736B1004AE3B7 /* Смельчак и ветер.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Смельчак и ветер.mp3"; sourceTree = "<group>"; };
+		5A3E2D682A9736B1004AE3B7 /* Верная Жена.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Верная Жена.mp3"; sourceTree = "<group>"; };
+		5A3E2D692A9736B1004AE3B7 /* Садовник.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Садовник.mp3"; sourceTree = "<group>"; };
+		5A3E2D6A2A9736B1004AE3B7 /* Шар голубой.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Шар голубой.mp3"; sourceTree = "<group>"; };
+		5A3E2D6B2A9736B1004AE3B7 /* Рыбак.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Рыбак.mp3"; sourceTree = "<group>"; };
+		5A3E2D6C2A9736B1004AE3B7 /* Злодей и шапка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Злодей и шапка.mp3"; sourceTree = "<group>"; };
+		5A3E2D6D2A9736B1004AE3B7 /* С тех пор как он ушел.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "С тех пор как он ушел.mp3"; sourceTree = "<group>"; };
+		5A3E2D6E2A9736B1004AE3B7 /* Проказник Скоморох.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Проказник Скоморох.mp3"; sourceTree = "<group>"; };
+		5A3E2D6F2A9736B1004AE3B7 /* В доме суета.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "В доме суета.mp3"; sourceTree = "<group>"; };
+		5A3E2D702A9736B1004AE3B7 /* Дурак и молния.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Дурак и молния.mp3"; sourceTree = "<group>"; };
+		5A3E2D712A9736B1004AE3B7 /* Холодное тело.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Холодное тело.mp3"; sourceTree = "<group>"; };
+		5A3E2D722A9736B1004AE3B7 /* Блуждают тени.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Блуждают тени.mp3"; sourceTree = "<group>"; };
+		5A3E2D732A9736B1004AE3B7 /* Лесные разбойники.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Лесные разбойники.mp3"; sourceTree = "<group>"; };
+		5A3E2D742A9736B1004AE3B7 /* Камнем По Голове.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Камнем По Голове.mp3"; sourceTree = "<group>"; };
+		5A3E2D752A9736B1004AE3B7 /* Любовь и Пропеллер.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Любовь и Пропеллер.mp3"; sourceTree = "<group>"; };
+		5A3E2D762A9736B1004AE3B7 /* Мария.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мария.mp3"; sourceTree = "<group>"; };
+		5A3E2D782A9736B7004AE3B7 /* Дагон.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Дагон.mp3"; sourceTree = "<group>"; };
+		5A3E2D792A9736B7004AE3B7 /* Вестник.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Вестник.mp3"; sourceTree = "<group>"; };
+		5A3E2D7A2A9736B7004AE3B7 /* Полутень клоуна.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Полутень клоуна.mp3"; sourceTree = "<group>"; };
+		5A3E2D7B2A9736B7004AE3B7 /* Клейменный огнем.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Клейменный огнем.mp3"; sourceTree = "<group>"; };
+		5A3E2D7C2A9736B7004AE3B7 /* В Париж домой.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "В Париж домой.mp3"; sourceTree = "<group>"; };
+		5A3E2D7D2A9736B7004AE3B7 /* Смешной пистолетик.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Смешной пистолетик.mp3"; sourceTree = "<group>"; };
+		5A3E2D7E2A9736B7004AE3B7 /* Полутень зомби.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Полутень зомби.mp3"; sourceTree = "<group>"; };
+		5A3E2D7F2A9736B7004AE3B7 /* Кода.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Кода.mp3"; sourceTree = "<group>"; };
+		5A3E2D802A9736B7004AE3B7 /* Ричард Гордон.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ричард Гордон.mp3"; sourceTree = "<group>"; };
+		5A3E2D812A9736B7004AE3B7 /* Суфлер.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Суфлер.mp3"; sourceTree = "<group>"; };
+		5A3E2D822A9736B7004AE3B7 /* Фред.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Фред.mp3"; sourceTree = "<group>"; };
+		5A3E2D832A9736B7004AE3B7 /* Санта Клаус.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Санта Клаус.mp3"; sourceTree = "<group>"; };
+		5A3E2D842A9736B7004AE3B7 /* Тень клоуна.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Тень клоуна.mp3"; sourceTree = "<group>"; };
+		5A3E2D852A9736B7004AE3B7 /* A.M.T.V..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.M.T.V..mp3; sourceTree = "<group>"; };
+		5A3E2D862A9736B7004AE3B7 /* Двое против всех.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Двое против всех.mp3"; sourceTree = "<group>"; };
+		5A3E2D872A9736B7004AE3B7 /* Ходит зомби.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ходит зомби.mp3"; sourceTree = "<group>"; };
+		5A3E2D882A9736B7004AE3B7 /* Невидимка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Невидимка.mp3"; sourceTree = "<group>"; };
+		5A3E2D892A9736B7004AE3B7 /* Тринадцатая рана.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Тринадцатая рана.mp3"; sourceTree = "<group>"; };
+		5A3E2D8A2A9736B7004AE3B7 /* Полутень Заговор в суде.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Полутень Заговор в суде.mp3"; sourceTree = "<group>"; };
+		5A3E2D8C2A9736BD004AE3B7 /* Город мертвецов.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Город мертвецов.mp3"; sourceTree = "<group>"; };
+		5A3E2D8D2A9736BD004AE3B7 /* Дочка вурдалака.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Дочка вурдалака.mp3"; sourceTree = "<group>"; };
+		5A3E2D8E2A9736BD004AE3B7 /* Джокер.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Джокер.mp3"; sourceTree = "<group>"; };
+		5A3E2D8F2A9736BD004AE3B7 /* Свой среди чужих.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Свой среди чужих.mp3"; sourceTree = "<group>"; };
+		5A3E2D902A9736BD004AE3B7 /* Ром.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ром.mp3"; sourceTree = "<group>"; };
+		5A3E2D912A9736BD004AE3B7 /* Хозяин таверны.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Хозяин таверны.mp3"; sourceTree = "<group>"; };
+		5A3E2D922A9736BD004AE3B7 /* Писатель Гудвин.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Писатель Гудвин.mp3"; sourceTree = "<group>"; };
+		5A3E2D932A9736BD004AE3B7 /* Гробовщик.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Гробовщик.mp3"; sourceTree = "<group>"; };
+		5A3E2D942A9736BD004AE3B7 /* Пляски на могиле.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Пляски на могиле.mp3"; sourceTree = "<group>"; };
+		5A3E2D952A9736BD004AE3B7 /* Отражение.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Отражение.mp3"; sourceTree = "<group>"; };
+		5A3E2D962A9736BD004AE3B7 /* Матерый Волк.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Матерый Волк.mp3"; sourceTree = "<group>"; };
+		5A3E2D972A9736BD004AE3B7 /* Та, что смотрит из пруда.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Та, что смотрит из пруда.mp3"; sourceTree = "<group>"; };
+		5A3E2D982A9736BD004AE3B7 /* Продавец кошмаров.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Продавец кошмаров.mp3"; sourceTree = "<group>"; };
+		5A3E2D992A9736BD004AE3B7 /* Марионетки.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Марионетки.mp3"; sourceTree = "<group>"; };
+		5A3E2D9A2A9736BD004AE3B7 /* В гостях у соседа.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "В гостях у соседа.mp3"; sourceTree = "<group>"; };
+		5A3E2D9B2A9736BD004AE3B7 /* Маска.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Маска.mp3"; sourceTree = "<group>"; };
+		5A884E5F2A92752200DC61DE /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		5A884E612A927EBC00DC61DE /* AudioTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		5AE8407A2A7FB04900FB05CA /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		5AE8407E2A7FC3BB00FB05CA /* ImageFielder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFielder.swift; sourceTree = "<group>"; };
 		5AE840802A7FED0C00FB05CA /* AlbumImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImage.swift; sourceTree = "<group>"; };
@@ -39,7 +403,7 @@
 		5AF82E4E2A7EB1C800050EA4 /* InfoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailsView.swift; sourceTree = "<group>"; };
 		5AF82E502A7EBCE100050EA4 /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
 		5AF82E582A7EC0B600050EA4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
-		5AF82E5C2A7EC49700050EA4 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		5AF82E5C2A7EC49700050EA4 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		5AF82E5F2A7EC77300050EA4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +418,300 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A3E2CDA2A9730D2004AE3B7 /* AlbumService */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2CDB2A9730E5004AE3B7 /* AlbumService.swift */,
+			);
+			path = AlbumService;
+			sourceTree = "<group>";
+		};
+		5A3E2CDD2A9731C8004AE3B7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5AF82E482A7E916500050EA4 /* Post.swift */,
+				5A884E612A927EBC00DC61DE /* AudioTrack.swift */,
+				5A3E2CDE2A9731E6004AE3B7 /* CurrentTrack.swift */,
+				5A1CFFCE2A9A1E1E0090E211 /* AlbumName.swift */,
+				5A1CFFD02A9A1F9E0090E211 /* Album.swift */,
+				5A1CFFD22A9B556A0090E211 /* AlbumImageModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5A3E2CE02A97368B004AE3B7 /* geroi i zlodei */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2CE12A97368B004AE3B7 /* Запрет отца.mp3 */,
+				5A3E2CE22A97368B004AE3B7 /* Кузнец.mp3 */,
+				5A3E2CE32A97368B004AE3B7 /* Что видел малыш.mp3 */,
+				5A3E2CE42A97368B004AE3B7 /* Бродяга И Старик.mp3 */,
+				5A3E2CE52A97368B004AE3B7 /* Невеста палача.mp3 */,
+				5A3E2CE62A97368B004AE3B7 /* Про Ивана.mp3 */,
+				5A3E2CE72A97368B004AE3B7 /* Вор, граф и графиня.mp3 */,
+				5A3E2CE82A97368B004AE3B7 /* Паника в селе (live).mp3 */,
+				5A3E2CE92A97368B004AE3B7 /* Смерть халдея.mp3 */,
+				5A3E2CEA2A97368B004AE3B7 /* Помнят С Горечью Древляне.mp3 */,
+				5A3E2CEB2A97368B004AE3B7 /* Дед на свадьбе.mp3 */,
+				5A3E2CEC2A97368B004AE3B7 /* Мастер приглашает в гости.mp3 */,
+				5A3E2CED2A97368B004AE3B7 /* Разговор с гоблином.mp3 */,
+				5A3E2CEE2A97368B004AE3B7 /* Разбойники (live).mp3 */,
+				5A3E2CEF2A97368B004AE3B7 /* Воспоминания о былой.mp3 */,
+			);
+			path = "geroi i zlodei";
+			sourceTree = "<group>";
+		};
+		5A3E2CF02A973691004AE3B7 /* acustichesky albom */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2CF12A973691004AE3B7 /* Сосиска.mp3 */,
+				5A3E2CF22A973691004AE3B7 /* Голые коки.mp3 */,
+				5A3E2CF32A973691004AE3B7 /* Тяни!.mp3 */,
+				5A3E2CF52A973691004AE3B7 /* Прыгну со скалы.mp3 */,
+				5A3E2CF62A973691004AE3B7 /* Екатерина.mp3 */,
+				5A3E2CF72A973691004AE3B7 /* Спятил отец.mp3 */,
+				5A3E2CF82A973691004AE3B7 /* Бедняжка.mp3 */,
+				5A3E2CF92A973691004AE3B7 /* Карапуз.mp3 */,
+				5A3E2CFA2A973691004AE3B7 /* Прерванная любовь, или Арбузная корка.mp3 */,
+				5A3E2CFB2A973691004AE3B7 /* Песня мушкетеров.mp3 */,
+				5A3E2CFC2A973691004AE3B7 /* Утренний Рассвет.mp3 */,
+				5A3E2CFD2A973691004AE3B7 /* Наблюдатель.mp3 */,
+				5A3E2CFE2A973691004AE3B7 /* Кукла колдуна.mp3 */,
+				5A3E2CFF2A973691004AE3B7 /* Забытые ботинки.mp3 */,
+				5A3E2D002A973691004AE3B7 /* Девушка и Граф.mp3 */,
+				5A3E2D012A973691004AE3B7 /* Ведьма и Осел.mp3 */,
+			);
+			path = "acustichesky albom";
+			sourceTree = "<group>";
+		};
+		5A3E2D022A973696004AE3B7 /* jal net rujiyz */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D032A973696004AE3B7 /* Генрих и Смерть.mp3 */,
+				5A3E2D042A973696004AE3B7 /* Мертвый Анархист.mp3 */,
+				5A3E2D052A973696004AE3B7 /* Утопленник.mp3 */,
+				5A3E2D062A973696004AE3B7 /* Представляю Я.mp3 */,
+				5A3E2D072A973696004AE3B7 /* Смешной Совет.mp3 */,
+				5A3E2D082A973696004AE3B7 /* Медведь.mp3 */,
+				5A3E2D0A2A973696004AE3B7 /* Песенка Пьяного Деда.mp3 */,
+				5A3E2D0B2A973696004AE3B7 /* Водяной.mp3 */,
+				5A3E2D0C2A973696004AE3B7 /* Мой Характер.mp3 */,
+				5A3E2D0D2A973696004AE3B7 /* Вино хоббитов.mp3 */,
+				5A3E2D0E2A973696004AE3B7 /* Жаль, нет Ружья!.mp3 */,
+				5A3E2D0F2A973696004AE3B7 /* Вдова и Горбун.mp3 */,
+				5A3E2D102A973696004AE3B7 /* Волосокрад.mp3 */,
+				5A3E2D112A973696004AE3B7 /* Разборки из-за Баб.mp3 */,
+				5A3E2D122A973696004AE3B7 /* Пьянка.mp3 */,
+				5A3E2D132A973696004AE3B7 /* Некромант.mp3 */,
+			);
+			path = "jal net rujiyz";
+			sourceTree = "<group>";
+		};
+		5A3E2D142A97369C004AE3B7 /* kak v staroy skazke */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D152A97369C004AE3B7 /* Гимн шута.mp3 */,
+				5A3E2D162A97369C004AE3B7 /* Два Монаха В Одну Ночь.mp3 */,
+				5A3E2D172A97369C004AE3B7 /* Похороны панка.mp3 */,
+				5A3E2D182A97369C004AE3B7 /* Кузьма и барин.mp3 */,
+				5A3E2D192A97369C004AE3B7 /* Парень и леший.mp3 */,
+				5A3E2D1A2A97369C004AE3B7 /* Возвращение колдуна.mp3 */,
+				5A3E2D1B2A97369C004AE3B7 /* Ответ.mp3 */,
+				5A3E2D1C2A97369C004AE3B7 /* Пивной череп.mp3 */,
+				5A3E2D1D2A97369C004AE3B7 /* Зловещий кузен.mp3 */,
+				5A3E2D1E2A97369C004AE3B7 /* Кто это все придумал.mp3 */,
+				5A3E2D1F2A97369C004AE3B7 /* Рогатый.mp3 */,
+				5A3E2D202A97369C004AE3B7 /* Тайна хозяйки старинных часов.mp3 */,
+				5A3E2D212A97369C004AE3B7 /* Пират.mp3 */,
+				5A3E2D222A97369C004AE3B7 /* Проклятый старый дом.mp3 */,
+				5A3E2D232A97369C004AE3B7 /* Скотный двор.mp3 */,
+				5A3E2D242A97369C004AE3B7 /* Двухголовый отпрыск.mp3 */,
+				5A3E2D252A97369C004AE3B7 /* Воспоминания о былой любви.mp3 */,
+			);
+			path = "kak v staroy skazke";
+			sourceTree = "<group>";
+		};
+		5A3E2D262A9736A0004AE3B7 /* teatr demona */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D272A9736A0004AE3B7 /* Мадам Жоржетт.mp3 */,
+				5A3E2D282A9736A0004AE3B7 /* Танец злобного гения.mp3 */,
+				5A3E2D292A9736A0004AE3B7 /* Бал лицемеров.mp3 */,
+				5A3E2D2A2A9736A0004AE3B7 /* Энди Кауфман.mp3 */,
+				5A3E2D2B2A9736A0004AE3B7 /* Киногерой.mp3 */,
+				5A3E2D2C2A9736A0004AE3B7 /* Защитники.mp3 */,
+				5A3E2D2D2A9736A0004AE3B7 /* Темный учитель.mp3 */,
+				5A3E2D2E2A9736A0004AE3B7 /* Король вечного сна.mp3 */,
+				5A3E2D2F2A9736A0004AE3B7 /* Послание.mp3 */,
+				5A3E2D302A9736A0004AE3B7 /* Фокусник.mp3 */,
+				5A3E2D312A9736A0004AE3B7 /* Бунтарь.mp3 */,
+				5A3E2D322A9736A0004AE3B7 /* Театральный демон.mp3 */,
+			);
+			path = "teatr demona";
+			sourceTree = "<group>";
+		};
+		5A3E2D332A9736A4004AE3B7 /* todd */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D342A9736A4004AE3B7 /* Признание Ловетт (Ария Ловетт).mp3 */,
+				5A3E2D352A9736A4004AE3B7 /* Машина смерти (Ария Ловетт и Мясника).mp3 */,
+				5A3E2D362A9736A4004AE3B7 /* Смертный Приговор (Ария Тодда и Мясника).mp3 */,
+				5A3E2D372A9736A4004AE3B7 /* Первая Кровь (Ария Священника и Тодда).mp3 */,
+				5A3E2D382A9736A4004AE3B7 /* Добрые люди (Хор нищих).mp3 */,
+				5A3E2D392A9736A4004AE3B7 /* Праздник крови (Ария Судьи).mp3 */,
+				5A3E2D3A2A9736A4004AE3B7 /* Новая Пирожковая (Ария благородной толпы).mp3 */,
+				5A3E2D3B2A9736A4004AE3B7 /* Счастье (Ария Тодда).mp3 */,
+				5A3E2D3C2A9736A4004AE3B7 /* Баллада о Бедном Цирюльнике (Ария Бродяги).mp3 */,
+				5A3E2D3D2A9736A4004AE3B7 /* Каторжник (Ария Тодда).mp3 */,
+				5A3E2D3E2A9736A4004AE3B7 /* Пирожки от Ловетт (Хор нищих и бродяг).mp3 */,
+			);
+			path = todd;
+			sourceTree = "<group>";
+		};
+		5A3E2D3F2A9736A7004AE3B7 /* bunt na korable */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D402A9736A7004AE3B7 /* Хардкор по-русски.mp3 */,
+				5A3E2D412A9736A7004AE3B7 /* Муха - маленькая птичка.mp3 */,
+				5A3E2D422A9736A7004AE3B7 /* Идол.mp3 */,
+				5A3E2D432A9736A7004AE3B7 /* Рыцарь.mp3 */,
+				5A3E2D442A9736A7004AE3B7 /* Задира и солдат.mp3 */,
+				5A3E2D452A9736A7004AE3B7 /* Раненый воин.mp3 */,
+				5A3E2D462A9736A7004AE3B7 /* Северный флот.mp3 */,
+				5A3E2D472A9736A7004AE3B7 /* Хороший пират - Мертвый пират.mp3 */,
+				5A3E2D482A9736A7004AE3B7 /* Исповедь вампира.mp3 */,
+				5A3E2D492A9736A7004AE3B7 /* Инквизитор.mp3 */,
+				5A3E2D4A2A9736A7004AE3B7 /* Месть Гарри.mp3 */,
+				5A3E2D4B2A9736A7004AE3B7 /* Звонок.mp3 */,
+				5A3E2D4C2A9736A7004AE3B7 /* Бунт на корабле!.mp3 */,
+				5A3E2D4D2A9736A7004AE3B7 /* Волшебный глаз старика Алонса.mp3 */,
+				5A3E2D4E2A9736A7004AE3B7 /* Хозяин леса.mp3 */,
+			);
+			path = "bunt na korable";
+			sourceTree = "<group>";
+		};
+		5A3E2D4F2A9736AC004AE3B7 /* bud kak doma putnik */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D502A9736AC004AE3B7 /* Отец и маски.mp3 */,
+				5A3E2D512A9736AC004AE3B7 /* Сказка про дракона.mp3 */,
+				5A3E2D522A9736AC004AE3B7 /* Сапоги Мертвеца.mp3 */,
+				5A3E2D532A9736AC004AE3B7 /* Паника в селе.mp3 */,
+				5A3E2D542A9736AC004AE3B7 /* Инструмент.mp3 */,
+				5A3E2D552A9736AC004AE3B7 /* История о мертвой женщине.mp3 */,
+				5A3E2D562A9736AC004AE3B7 /* Валет и Дама.mp3 */,
+				5A3E2D572A9736AC004AE3B7 /* Два друга и разбойники.mp3 */,
+				5A3E2D582A9736AC004AE3B7 /* Веселые тролли.mp3 */,
+				5A3E2D592A9736AC004AE3B7 /* Истинный Убийца.mp3 */,
+				5A3E2D5A2A9736AC004AE3B7 /* Король и Шут.mp3 */,
+				5A3E2D5B2A9736AC004AE3B7 /* Собрание.mp3 */,
+				5A3E2D5C2A9736AC004AE3B7 /* Охотник.mp3 */,
+				5A3E2D5D2A9736AC004AE3B7 /* Он не знает, что такое жить.mp3 */,
+				5A3E2D5E2A9736AC004AE3B7 /* Лесник.mp3 */,
+				5A3E2D5F2A9736AC004AE3B7 /* Кукольный театр.mp3 */,
+				5A3E2D602A9736AC004AE3B7 /* Помоги Мне.mp3 */,
+			);
+			path = "bud kak doma putnik";
+			sourceTree = "<group>";
+		};
+		5A3E2D612A9736B1004AE3B7 /* kamnem po golove */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D622A9736B1004AE3B7 /* Внезапная голова.mp3 */,
+				5A3E2D632A9736B1004AE3B7 /* От женщин кругом голова.mp3 */,
+				5A3E2D642A9736B1004AE3B7 /* Два вора и монета.mp3 */,
+				5A3E2D652A9736B1004AE3B7 /* Леший обиделся.mp3 */,
+				5A3E2D672A9736B1004AE3B7 /* Смельчак и ветер.mp3 */,
+				5A3E2D682A9736B1004AE3B7 /* Верная Жена.mp3 */,
+				5A3E2D692A9736B1004AE3B7 /* Садовник.mp3 */,
+				5A3E2D6A2A9736B1004AE3B7 /* Шар голубой.mp3 */,
+				5A3E2D6B2A9736B1004AE3B7 /* Рыбак.mp3 */,
+				5A3E2D6C2A9736B1004AE3B7 /* Злодей и шапка.mp3 */,
+				5A3E2D6D2A9736B1004AE3B7 /* С тех пор как он ушел.mp3 */,
+				5A3E2D6E2A9736B1004AE3B7 /* Проказник Скоморох.mp3 */,
+				5A3E2D6F2A9736B1004AE3B7 /* В доме суета.mp3 */,
+				5A3E2D702A9736B1004AE3B7 /* Дурак и молния.mp3 */,
+				5A3E2D712A9736B1004AE3B7 /* Холодное тело.mp3 */,
+				5A3E2D722A9736B1004AE3B7 /* Блуждают тени.mp3 */,
+				5A3E2D732A9736B1004AE3B7 /* Лесные разбойники.mp3 */,
+				5A3E2D742A9736B1004AE3B7 /* Камнем По Голове.mp3 */,
+				5A3E2D752A9736B1004AE3B7 /* Любовь и Пропеллер.mp3 */,
+				5A3E2D762A9736B1004AE3B7 /* Мария.mp3 */,
+			);
+			path = "kamnem po golove";
+			sourceTree = "<group>";
+		};
+		5A3E2D772A9736B7004AE3B7 /* ten klouna */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D782A9736B7004AE3B7 /* Дагон.mp3 */,
+				5A3E2D792A9736B7004AE3B7 /* Вестник.mp3 */,
+				5A3E2D7A2A9736B7004AE3B7 /* Полутень клоуна.mp3 */,
+				5A3E2D7B2A9736B7004AE3B7 /* Клейменный огнем.mp3 */,
+				5A3E2D7C2A9736B7004AE3B7 /* В Париж домой.mp3 */,
+				5A3E2D7D2A9736B7004AE3B7 /* Смешной пистолетик.mp3 */,
+				5A3E2D7E2A9736B7004AE3B7 /* Полутень зомби.mp3 */,
+				5A3E2D7F2A9736B7004AE3B7 /* Кода.mp3 */,
+				5A3E2D802A9736B7004AE3B7 /* Ричард Гордон.mp3 */,
+				5A3E2D812A9736B7004AE3B7 /* Суфлер.mp3 */,
+				5A3E2D822A9736B7004AE3B7 /* Фред.mp3 */,
+				5A3E2D832A9736B7004AE3B7 /* Санта Клаус.mp3 */,
+				5A3E2D842A9736B7004AE3B7 /* Тень клоуна.mp3 */,
+				5A3E2D852A9736B7004AE3B7 /* A.M.T.V..mp3 */,
+				5A3E2D862A9736B7004AE3B7 /* Двое против всех.mp3 */,
+				5A3E2D872A9736B7004AE3B7 /* Ходит зомби.mp3 */,
+				5A3E2D882A9736B7004AE3B7 /* Невидимка.mp3 */,
+				5A3E2D892A9736B7004AE3B7 /* Тринадцатая рана.mp3 */,
+				5A3E2D8A2A9736B7004AE3B7 /* Полутень Заговор в суде.mp3 */,
+			);
+			path = "ten klouna";
+			sourceTree = "<group>";
+		};
+		5A3E2D8B2A9736BD004AE3B7 /* prodavec koshmarov */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2D8C2A9736BD004AE3B7 /* Город мертвецов.mp3 */,
+				5A3E2D8D2A9736BD004AE3B7 /* Дочка вурдалака.mp3 */,
+				5A3E2D8E2A9736BD004AE3B7 /* Джокер.mp3 */,
+				5A3E2D8F2A9736BD004AE3B7 /* Свой среди чужих.mp3 */,
+				5A3E2D902A9736BD004AE3B7 /* Ром.mp3 */,
+				5A3E2D912A9736BD004AE3B7 /* Хозяин таверны.mp3 */,
+				5A3E2D922A9736BD004AE3B7 /* Писатель Гудвин.mp3 */,
+				5A3E2D932A9736BD004AE3B7 /* Гробовщик.mp3 */,
+				5A3E2D942A9736BD004AE3B7 /* Пляски на могиле.mp3 */,
+				5A3E2D952A9736BD004AE3B7 /* Отражение.mp3 */,
+				5A3E2D962A9736BD004AE3B7 /* Матерый Волк.mp3 */,
+				5A3E2D972A9736BD004AE3B7 /* Та, что смотрит из пруда.mp3 */,
+				5A3E2D982A9736BD004AE3B7 /* Продавец кошмаров.mp3 */,
+				5A3E2D992A9736BD004AE3B7 /* Марионетки.mp3 */,
+				5A3E2D9A2A9736BD004AE3B7 /* В гостях у соседа.mp3 */,
+				5A3E2D9B2A9736BD004AE3B7 /* Маска.mp3 */,
+			);
+			path = "prodavec koshmarov";
+			sourceTree = "<group>";
+		};
+		5A884E5C2A92749600DC61DE /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				5A3E2CF02A973691004AE3B7 /* acustichesky albom */,
+				5A3E2D4F2A9736AC004AE3B7 /* bud kak doma putnik */,
+				5A3E2D3F2A9736A7004AE3B7 /* bunt na korable */,
+				5A3E2CE02A97368B004AE3B7 /* geroi i zlodei */,
+				5A3E2D022A973696004AE3B7 /* jal net rujiyz */,
+				5A3E2D142A97369C004AE3B7 /* kak v staroy skazke */,
+				5A3E2D612A9736B1004AE3B7 /* kamnem po golove */,
+				5A3E2D8B2A9736BD004AE3B7 /* prodavec koshmarov */,
+				5A3E2D262A9736A0004AE3B7 /* teatr demona */,
+				5A3E2D772A9736B7004AE3B7 /* ten klouna */,
+				5A3E2D332A9736A4004AE3B7 /* todd */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		5AE840782A7FB02A00FB05CA /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				5A3E2CDA2A9730D2004AE3B7 /* AlbumService */,
 				5AE840792A7FB03800FB05CA /* UserData */,
 			);
 			path = Services;
@@ -106,12 +761,13 @@
 		5AF82E392A7E904C00050EA4 /* KCSongs */ = {
 			isa = PBXGroup;
 			children = (
+				5A3E2CDD2A9731C8004AE3B7 /* Data */,
 				5AF82E3A2A7E904C00050EA4 /* KCSongsApp.swift */,
 				5AE840782A7FB02A00FB05CA /* Services */,
 				5AF82E562A7EC0A300050EA4 /* Flows */,
 				5AF82E3E2A7E905100050EA4 /* Assets.xcassets */,
 				5AF82E552A7EC00C00050EA4 /* UI */,
-				5AF82E542A7EBFF900050EA4 /* DataModels */,
+				5A884E5C2A92749600DC61DE /* Music */,
 				5AF82E402A7E905100050EA4 /* Preview Content */,
 			);
 			path = KCSongs;
@@ -123,14 +779,6 @@
 				5AF82E412A7E905100050EA4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5AF82E542A7EBFF900050EA4 /* DataModels */ = {
-			isa = PBXGroup;
-			children = (
-				5AF82E482A7E916500050EA4 /* Post.swift */,
-			);
-			path = DataModels;
 			sourceTree = "<group>";
 		};
 		5AF82E552A7EC00C00050EA4 /* UI */ = {
@@ -147,7 +795,7 @@
 			children = (
 				5AF82E572A7EC0AC00050EA4 /* Home */,
 				5AF82E5B2A7EC47A00050EA4 /* Info */,
-				5AF82E5A2A7EC46B00050EA4 /* Hello */,
+				5AF82E5A2A7EC46B00050EA4 /* Player */,
 				5AF82E5E2A7EC76400050EA4 /* Settings */,
 			);
 			path = Flows;
@@ -162,12 +810,14 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		5AF82E5A2A7EC46B00050EA4 /* Hello */ = {
+		5AF82E5A2A7EC46B00050EA4 /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				5AF82E5C2A7EC49700050EA4 /* HelloView.swift */,
+				5AF82E5C2A7EC49700050EA4 /* PlayerView.swift */,
+				5A884E5F2A92752200DC61DE /* PlayerModel.swift */,
+				5A1CFFD42A9B567F0090E211 /* AlbumImageView.swift */,
 			);
-			path = Hello;
+			path = Player;
 			sourceTree = "<group>";
 		};
 		5AF82E5B2A7EC47A00050EA4 /* Info */ = {
@@ -246,8 +896,182 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3E2E1A2A9736BD004AE3B7 /* Смельчак и ветер.mp3 in Resources */,
+				5A3E2DD02A9736BD004AE3B7 /* Кузьма и барин.mp3 in Resources */,
+				5A3E2E242A9736BD004AE3B7 /* Холодное тело.mp3 in Resources */,
+				5A3E2E2D2A9736BD004AE3B7 /* Клейменный огнем.mp3 in Resources */,
+				5A3E2E2E2A9736BD004AE3B7 /* В Париж домой.mp3 in Resources */,
+				5A3E2E162A9736BD004AE3B7 /* От женщин кругом голова.mp3 in Resources */,
+				5A3E2DCE2A9736BD004AE3B7 /* Два Монаха В Одну Ночь.mp3 in Resources */,
+				5A3E2DD22A9736BD004AE3B7 /* Возвращение колдуна.mp3 in Resources */,
+				5A3E2E342A9736BD004AE3B7 /* Фред.mp3 in Resources */,
+				5A3E2DF32A9736BD004AE3B7 /* Каторжник (Ария Тодда).mp3 in Resources */,
+				5A3E2DAF2A9736BD004AE3B7 /* Прыгну со скалы.mp3 in Resources */,
+				5A3E2DAC2A9736BD004AE3B7 /* Голые коки.mp3 in Resources */,
+				5A3E2DD82A9736BD004AE3B7 /* Тайна хозяйки старинных часов.mp3 in Resources */,
+				5A3E2E072A9736BD004AE3B7 /* Паника в селе.mp3 in Resources */,
+				5A3E2D9D2A9736BD004AE3B7 /* Кузнец.mp3 in Resources */,
+				5A3E2DDB2A9736BD004AE3B7 /* Скотный двор.mp3 in Resources */,
+				5A3E2E292A9736BD004AE3B7 /* Мария.mp3 in Resources */,
+				5A3E2E4B2A9736BD004AE3B7 /* В гостях у соседа.mp3 in Resources */,
+				5A3E2DA62A9736BD004AE3B7 /* Дед на свадьбе.mp3 in Resources */,
+				5A3E2E472A9736BD004AE3B7 /* Матерый Волк.mp3 in Resources */,
+				5A3E2DDC2A9736BD004AE3B7 /* Двухголовый отпрыск.mp3 in Resources */,
+				5A3E2E2C2A9736BD004AE3B7 /* Полутень клоуна.mp3 in Resources */,
+				5A3E2DF12A9736BD004AE3B7 /* Счастье (Ария Тодда).mp3 in Resources */,
+				5A3E2DB02A9736BD004AE3B7 /* Екатерина.mp3 in Resources */,
+				5A3E2DE32A9736BD004AE3B7 /* Защитники.mp3 in Resources */,
+				5A3E2E3A2A9736BD004AE3B7 /* Невидимка.mp3 in Resources */,
+				5A3E2DD52A9736BD004AE3B7 /* Зловещий кузен.mp3 in Resources */,
+				5A3E2DB12A9736BD004AE3B7 /* Спятил отец.mp3 in Resources */,
+				5A3E2DEC2A9736BD004AE3B7 /* Смертный Приговор (Ария Тодда и Мясника).mp3 in Resources */,
+				5A3E2DA22A9736BD004AE3B7 /* Вор, граф и графиня.mp3 in Resources */,
+				5A3E2DEE2A9736BD004AE3B7 /* Добрые люди (Хор нищих).mp3 in Resources */,
+				5A3E2E2F2A9736BD004AE3B7 /* Смешной пистолетик.mp3 in Resources */,
+				5A3E2DDE2A9736BD004AE3B7 /* Мадам Жоржетт.mp3 in Resources */,
+				5A3E2DDD2A9736BD004AE3B7 /* Воспоминания о былой любви.mp3 in Resources */,
+				5A3E2DEF2A9736BD004AE3B7 /* Праздник крови (Ария Судьи).mp3 in Resources */,
+				5A3E2DCA2A9736BD004AE3B7 /* Разборки из-за Баб.mp3 in Resources */,
+				5A3E2DE72A9736BD004AE3B7 /* Фокусник.mp3 in Resources */,
+				5A3E2DFA2A9736BD004AE3B7 /* Раненый воин.mp3 in Resources */,
+				5A3E2DB22A9736BD004AE3B7 /* Бедняжка.mp3 in Resources */,
+				5A3E2E272A9736BD004AE3B7 /* Камнем По Голове.mp3 in Resources */,
+				5A3E2DCB2A9736BD004AE3B7 /* Пьянка.mp3 in Resources */,
+				5A3E2E122A9736BD004AE3B7 /* Лесник.mp3 in Resources */,
+				5A3E2E1E2A9736BD004AE3B7 /* Рыбак.mp3 in Resources */,
+				5A3E2DAB2A9736BD004AE3B7 /* Сосиска.mp3 in Resources */,
+				5A3E2E3F2A9736BD004AE3B7 /* Джокер.mp3 in Resources */,
+				5A3E2E432A9736BD004AE3B7 /* Писатель Гудвин.mp3 in Resources */,
+				5A3E2E462A9736BD004AE3B7 /* Отражение.mp3 in Resources */,
+				5A3E2DBD2A9736BD004AE3B7 /* Мертвый Анархист.mp3 in Resources */,
+				5A3E2DA42A9736BD004AE3B7 /* Смерть халдея.mp3 in Resources */,
+				5A3E2DBA2A9736BD004AE3B7 /* Девушка и Граф.mp3 in Resources */,
+				5A3E2E0A2A9736BD004AE3B7 /* Валет и Дама.mp3 in Resources */,
+				5A3E2DBB2A9736BD004AE3B7 /* Ведьма и Осел.mp3 in Resources */,
+				5A3E2E2A2A9736BD004AE3B7 /* Дагон.mp3 in Resources */,
+				5A3E2E002A9736BD004AE3B7 /* Звонок.mp3 in Resources */,
+				5A3E2E232A9736BD004AE3B7 /* Дурак и молния.mp3 in Resources */,
+				5A3E2E412A9736BD004AE3B7 /* Ром.mp3 in Resources */,
+				5A3E2E0B2A9736BD004AE3B7 /* Два друга и разбойники.mp3 in Resources */,
+				5A3E2DBE2A9736BD004AE3B7 /* Утопленник.mp3 in Resources */,
+				5A3E2E0F2A9736BD004AE3B7 /* Собрание.mp3 in Resources */,
+				5A3E2DE22A9736BD004AE3B7 /* Киногерой.mp3 in Resources */,
+				5A3E2DF02A9736BD004AE3B7 /* Новая Пирожковая (Ария благородной толпы).mp3 in Resources */,
+				5A3E2DE62A9736BD004AE3B7 /* Послание.mp3 in Resources */,
+				5A3E2DA72A9736BD004AE3B7 /* Мастер приглашает в гости.mp3 in Resources */,
+				5A3E2DE52A9736BD004AE3B7 /* Король вечного сна.mp3 in Resources */,
+				5A3E2E0C2A9736BD004AE3B7 /* Веселые тролли.mp3 in Resources */,
+				5A3E2DFB2A9736BD004AE3B7 /* Северный флот.mp3 in Resources */,
+				5A3E2DC92A9736BD004AE3B7 /* Волосокрад.mp3 in Resources */,
+				5A3E2DEB2A9736BD004AE3B7 /* Машина смерти (Ария Ловетт и Мясника).mp3 in Resources */,
+				5A3E2E372A9736BD004AE3B7 /* A.M.T.V..mp3 in Resources */,
+				5A3E2E132A9736BD004AE3B7 /* Кукольный театр.mp3 in Resources */,
+				5A3E2E102A9736BD004AE3B7 /* Охотник.mp3 in Resources */,
+				5A3E2DB82A9736BD004AE3B7 /* Кукла колдуна.mp3 in Resources */,
+				5A3E2DA02A9736BD004AE3B7 /* Невеста палача.mp3 in Resources */,
+				5A3E2E332A9736BD004AE3B7 /* Суфлер.mp3 in Resources */,
+				5A3E2E282A9736BD004AE3B7 /* Любовь и Пропеллер.mp3 in Resources */,
+				5A3E2DBF2A9736BD004AE3B7 /* Представляю Я.mp3 in Resources */,
+				5A3E2E402A9736BD004AE3B7 /* Свой среди чужих.mp3 in Resources */,
+				5A3E2DC72A9736BD004AE3B7 /* Жаль, нет Ружья!.mp3 in Resources */,
+				5A3E2DD62A9736BD004AE3B7 /* Кто это все придумал.mp3 in Resources */,
+				5A3E2DEA2A9736BD004AE3B7 /* Признание Ловетт (Ария Ловетт).mp3 in Resources */,
+				5A3E2DF52A9736BD004AE3B7 /* Хардкор по-русски.mp3 in Resources */,
+				5A3E2DDA2A9736BD004AE3B7 /* Проклятый старый дом.mp3 in Resources */,
+				5A3E2E302A9736BD004AE3B7 /* Полутень зомби.mp3 in Resources */,
+				5A3E2E0E2A9736BD004AE3B7 /* Король и Шут.mp3 in Resources */,
+				5A3E2DFC2A9736BD004AE3B7 /* Хороший пират - Мертвый пират.mp3 in Resources */,
+				5A3E2DD12A9736BD004AE3B7 /* Парень и леший.mp3 in Resources */,
+				5A3E2DA32A9736BD004AE3B7 /* Паника в селе (live).mp3 in Resources */,
+				5A3E2DAA2A9736BD004AE3B7 /* Воспоминания о былой.mp3 in Resources */,
+				5A3E2E092A9736BD004AE3B7 /* История о мертвой женщине.mp3 in Resources */,
+				5A3E2E152A9736BD004AE3B7 /* Внезапная голова.mp3 in Resources */,
+				5A3E2DC62A9736BD004AE3B7 /* Вино хоббитов.mp3 in Resources */,
+				5A3E2DE92A9736BD004AE3B7 /* Театральный демон.mp3 in Resources */,
+				5A3E2E252A9736BD004AE3B7 /* Блуждают тени.mp3 in Resources */,
 				5AF82E422A7E905100050EA4 /* Preview Assets.xcassets in Resources */,
+				5A3E2DC02A9736BD004AE3B7 /* Смешной Совет.mp3 in Resources */,
+				5A3E2E142A9736BD004AE3B7 /* Помоги Мне.mp3 in Resources */,
+				5A3E2DC52A9736BD004AE3B7 /* Мой Характер.mp3 in Resources */,
+				5A3E2DB72A9736BD004AE3B7 /* Наблюдатель.mp3 in Resources */,
+				5A3E2E4C2A9736BD004AE3B7 /* Маска.mp3 in Resources */,
+				5A3E2DAD2A9736BD004AE3B7 /* Тяни!.mp3 in Resources */,
+				5A3E2DBC2A9736BD004AE3B7 /* Генрих и Смерть.mp3 in Resources */,
+				5A3E2DC32A9736BD004AE3B7 /* Песенка Пьяного Деда.mp3 in Resources */,
+				5A3E2E2B2A9736BD004AE3B7 /* Вестник.mp3 in Resources */,
+				5A3E2DD32A9736BD004AE3B7 /* Ответ.mp3 in Resources */,
+				5A3E2DF72A9736BD004AE3B7 /* Идол.mp3 in Resources */,
+				5A3E2E482A9736BD004AE3B7 /* Та, что смотрит из пруда.mp3 in Resources */,
+				5A3E2DF62A9736BD004AE3B7 /* Муха - маленькая птичка.mp3 in Resources */,
+				5A3E2E172A9736BD004AE3B7 /* Два вора и монета.mp3 in Resources */,
+				5A3E2E262A9736BD004AE3B7 /* Лесные разбойники.mp3 in Resources */,
+				5A3E2E082A9736BD004AE3B7 /* Инструмент.mp3 in Resources */,
+				5A3E2DA82A9736BD004AE3B7 /* Разговор с гоблином.mp3 in Resources */,
+				5A3E2E312A9736BD004AE3B7 /* Кода.mp3 in Resources */,
+				5A3E2E112A9736BD004AE3B7 /* Он не знает, что такое жить.mp3 in Resources */,
+				5A3E2DFD2A9736BD004AE3B7 /* Исповедь вампира.mp3 in Resources */,
+				5A3E2DF92A9736BD004AE3B7 /* Задира и солдат.mp3 in Resources */,
+				5A3E2DB62A9736BD004AE3B7 /* Утренний Рассвет.mp3 in Resources */,
+				5A3E2DE82A9736BD004AE3B7 /* Бунтарь.mp3 in Resources */,
+				5A3E2DD42A9736BD004AE3B7 /* Пивной череп.mp3 in Resources */,
+				5A3E2E1F2A9736BD004AE3B7 /* Злодей и шапка.mp3 in Resources */,
+				5A3E2E322A9736BD004AE3B7 /* Ричард Гордон.mp3 in Resources */,
+				5A3E2E3B2A9736BD004AE3B7 /* Тринадцатая рана.mp3 in Resources */,
+				5A3E2E3E2A9736BD004AE3B7 /* Дочка вурдалака.mp3 in Resources */,
+				5A3E2E0D2A9736BD004AE3B7 /* Истинный Убийца.mp3 in Resources */,
+				5A3E2DDF2A9736BD004AE3B7 /* Танец злобного гения.mp3 in Resources */,
+				5A3E2E4A2A9736BD004AE3B7 /* Марионетки.mp3 in Resources */,
+				5A3E2DD92A9736BD004AE3B7 /* Пират.mp3 in Resources */,
+				5A3E2DC42A9736BD004AE3B7 /* Водяной.mp3 in Resources */,
+				5A3E2E202A9736BD004AE3B7 /* С тех пор как он ушел.mp3 in Resources */,
+				5A3E2DCD2A9736BD004AE3B7 /* Гимн шута.mp3 in Resources */,
+				5A3E2DFF2A9736BD004AE3B7 /* Месть Гарри.mp3 in Resources */,
+				5A3E2E382A9736BD004AE3B7 /* Двое против всех.mp3 in Resources */,
+				5A3E2DB42A9736BD004AE3B7 /* Прерванная любовь, или Арбузная корка.mp3 in Resources */,
+				5A3E2E062A9736BD004AE3B7 /* Сапоги Мертвеца.mp3 in Resources */,
+				5A3E2DCC2A9736BD004AE3B7 /* Некромант.mp3 in Resources */,
+				5A3E2DE02A9736BD004AE3B7 /* Бал лицемеров.mp3 in Resources */,
+				5A3E2E492A9736BD004AE3B7 /* Продавец кошмаров.mp3 in Resources */,
+				5A3E2DB92A9736BD004AE3B7 /* Забытые ботинки.mp3 in Resources */,
+				5A3E2DD72A9736BD004AE3B7 /* Рогатый.mp3 in Resources */,
+				5A3E2DF22A9736BD004AE3B7 /* Баллада о Бедном Цирюльнике (Ария Бродяги).mp3 in Resources */,
+				5A3E2E452A9736BD004AE3B7 /* Пляски на могиле.mp3 in Resources */,
+				5A3E2E022A9736BD004AE3B7 /* Волшебный глаз старика Алонса.mp3 in Resources */,
+				5A3E2E422A9736BD004AE3B7 /* Хозяин таверны.mp3 in Resources */,
+				5A3E2DB52A9736BD004AE3B7 /* Песня мушкетеров.mp3 in Resources */,
+				5A3E2E012A9736BD004AE3B7 /* Бунт на корабле!.mp3 in Resources */,
+				5A3E2D9C2A9736BD004AE3B7 /* Запрет отца.mp3 in Resources */,
+				5A3E2E042A9736BD004AE3B7 /* Отец и маски.mp3 in Resources */,
+				5A3E2DA12A9736BD004AE3B7 /* Про Ивана.mp3 in Resources */,
+				5A3E2E442A9736BD004AE3B7 /* Гробовщик.mp3 in Resources */,
+				5A3E2DF42A9736BD004AE3B7 /* Пирожки от Ловетт (Хор нищих и бродяг).mp3 in Resources */,
+				5A3E2E1D2A9736BD004AE3B7 /* Шар голубой.mp3 in Resources */,
+				5A3E2E1C2A9736BD004AE3B7 /* Садовник.mp3 in Resources */,
+				5A3E2DF82A9736BD004AE3B7 /* Рыцарь.mp3 in Resources */,
+				5A3E2D9E2A9736BD004AE3B7 /* Что видел малыш.mp3 in Resources */,
+				5A3E2E052A9736BD004AE3B7 /* Сказка про дракона.mp3 in Resources */,
+				5A3E2E3D2A9736BD004AE3B7 /* Город мертвецов.mp3 in Resources */,
+				5A3E2DE42A9736BD004AE3B7 /* Темный учитель.mp3 in Resources */,
+				5A3E2E352A9736BD004AE3B7 /* Санта Клаус.mp3 in Resources */,
 				5AF82E3F2A7E905100050EA4 /* Assets.xcassets in Resources */,
+				5A3E2E392A9736BD004AE3B7 /* Ходит зомби.mp3 in Resources */,
+				5A3E2E1B2A9736BD004AE3B7 /* Верная Жена.mp3 in Resources */,
+				5A3E2DC82A9736BD004AE3B7 /* Вдова и Горбун.mp3 in Resources */,
+				5A3E2E222A9736BD004AE3B7 /* В доме суета.mp3 in Resources */,
+				5A3E2E032A9736BD004AE3B7 /* Хозяин леса.mp3 in Resources */,
+				5A3E2E212A9736BD004AE3B7 /* Проказник Скоморох.mp3 in Resources */,
+				5A3E2E182A9736BD004AE3B7 /* Леший обиделся.mp3 in Resources */,
+				5A3E2DED2A9736BD004AE3B7 /* Первая Кровь (Ария Священника и Тодда).mp3 in Resources */,
+				5A3E2DA52A9736BD004AE3B7 /* Помнят С Горечью Древляне.mp3 in Resources */,
+				5A3E2DCF2A9736BD004AE3B7 /* Похороны панка.mp3 in Resources */,
+				5A3E2DFE2A9736BD004AE3B7 /* Инквизитор.mp3 in Resources */,
+				5A3E2E3C2A9736BD004AE3B7 /* Полутень Заговор в суде.mp3 in Resources */,
+				5A3E2E362A9736BD004AE3B7 /* Тень клоуна.mp3 in Resources */,
+				5A3E2D9F2A9736BD004AE3B7 /* Бродяга И Старик.mp3 in Resources */,
+				5A3E2DB32A9736BD004AE3B7 /* Карапуз.mp3 in Resources */,
+				5A3E2DC12A9736BD004AE3B7 /* Медведь.mp3 in Resources */,
+				5A3E2DE12A9736BD004AE3B7 /* Энди Кауфман.mp3 in Resources */,
+				5A3E2DA92A9736BD004AE3B7 /* Разбойники (live).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,19 +1082,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AF82E5D2A7EC49700050EA4 /* HelloView.swift in Sources */,
+				5AF82E5D2A7EC49700050EA4 /* PlayerView.swift in Sources */,
+				5A1CFFD32A9B556A0090E211 /* AlbumImageModel.swift in Sources */,
 				5AF82E4B2A7E9C7200050EA4 /* InfoView.swift in Sources */,
+				5A1CFFD12A9A1F9E0090E211 /* Album.swift in Sources */,
 				5AF82E492A7E916500050EA4 /* Post.swift in Sources */,
 				5AE8407F2A7FC3BB00FB05CA /* ImageFielder.swift in Sources */,
 				5AF82E592A7EC0B600050EA4 /* TabBarView.swift in Sources */,
 				5AE840812A7FED0C00FB05CA /* AlbumImage.swift in Sources */,
+				5A884E602A92752200DC61DE /* PlayerModel.swift in Sources */,
+				5A1CFFCF2A9A1E1E0090E211 /* AlbumName.swift in Sources */,
 				5AF82E3D2A7E904C00050EA4 /* ContentView.swift in Sources */,
+				5A1CFFD52A9B567F0090E211 /* AlbumImageView.swift in Sources */,
 				5AE8407B2A7FB04900FB05CA /* UserData.swift in Sources */,
+				5A884E622A927EBC00DC61DE /* AudioTrack.swift in Sources */,
 				5AF82E602A7EC77300050EA4 /* SettingsView.swift in Sources */,
+				5A3E2CDF2A9731E6004AE3B7 /* CurrentTrack.swift in Sources */,
 				5AF82E4F2A7EB1C800050EA4 /* InfoDetailsView.swift in Sources */,
 				5AF82E3B2A7E904C00050EA4 /* KCSongsApp.swift in Sources */,
 				5AF82E512A7EBCE100050EA4 /* BackButtonView.swift in Sources */,
 				5AF82E4D2A7E9E4B00050EA4 /* InfoRowView.swift in Sources */,
+				5A3E2CDC2A9730E5004AE3B7 /* AlbumService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
